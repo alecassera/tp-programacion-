@@ -1,5 +1,17 @@
 body{
-    background-color:white;
+    background-image: url(IMG.FONDO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+img.logo{
+    width: 10%;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    border: 1px solid gray;
 }
 
 ul.navegacion{
@@ -13,13 +25,29 @@ ul.navegacion{
 ul li{
     list-style-type: none;
     text-align: center;
-    background-color: #595959;
+    background-color: white;
     margin-bottom: 5px;
     padding: 10px;
     text-align: center;
+    border: 5px solid gray;
 }
 
 ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+main div{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+}
+ img.album{
+     width: 100%;
+ }
+
+h2{
+    background-color:black;
     color: white;
-    text-decoration: none    ;
+
 }
