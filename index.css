@@ -1,0 +1,25 @@
+body{
+    background-color:white;
+}
+
+ul.navegacion{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    padding-left: 0%;
+}
+
+ul li{
+    list-style-type: none;
+    text-align: center;
+    background-color: #595959;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none    ;
+}
