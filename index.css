@@ -1,8 +1,9 @@
+
+
 body{
     background-image: url(IMG.FONDO.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 img.logo{
@@ -29,7 +30,7 @@ ul li{
     margin-bottom: 5px;
     padding: 10px;
     text-align: center;
-    border: 5px solid gray;
+    border: 2px solid gray;
 }
 
 ul li a{
@@ -37,17 +38,67 @@ ul li a{
     text-decoration: none;
 }
 
-main div{
+
+
+
+
+
+
+main div.fotoBB{
     display: grid;
     grid-template-columns: 40% 40%;
     justify-content: space-between;
 }
- img.album{
+ img.artista{
      width: 100%;
  }
 
-h2{
+ div.fila1{
+     display: grid;
+     grid-auto-rows: 30% 30%;
+     justify-content: space-between;
+     margin: 0 auto;
+ }
+
+h2.artristas{
+    width: 40%;
+    height: 10%;
     background-color:black;
     color: white;
+    padding: 5px;
+}
 
+ol.artistas{
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+main div.albumes{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+}
+img.album{
+    width: 100%;
+}
+div.fila2{
+    display: grid;
+    grid-auto-rows: 30% 30%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+h2.albumess{
+    width: 40%;
+    height: 10%;
+    background-color:black;
+    color: white;
+    padding: 5px;
+}
+ol.album{
+    margin: 0 auto;
 }
