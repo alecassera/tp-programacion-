@@ -7,11 +7,11 @@ body{
 }
 
 img.logo{
-    width: 10%;
+    width: 9%;
     border-radius: 50px;
     margin: 0 auto;
     display: block;
-    margin-top: 20px;
+    margin-top: 25px;
     border: 1px solid gray;
 }
 
@@ -21,16 +21,19 @@ ul.navegacion{
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
     padding-left: 0%;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
-ul li{
+ul.navegacion li{
     list-style-type: none;
     text-align: center;
-    background-color: white;
+    background-color: rgb(204, 198, 198);
     margin-bottom: 5px;
     padding: 10px;
     text-align: center;
-    border: 2px solid gray;
+    border: 2px solid black;
+    font-family: 'quicksand';
 }
 
 ul li a{
@@ -46,30 +49,36 @@ ul li a{
 
 main div.fotoBB{
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
     justify-content: space-between;
 }
  img.artista{
      width: 100%;
+     margin: auto;
  }
 
  div.fila1{
      display: grid;
-     grid-auto-rows: 30% 30%;
+     grid-auto-rows: 45% 45%;
      justify-content: space-between;
      margin: 0 auto;
  }
 
-h2.artristas{
-    width: 40%;
-    height: 10%;
-    background-color:black;
-    color: white;
+ h2.artistas{
+    width: 90%;
+    height: 30%;
+    border: 3px solid black;
+    background-color:gray;
+    color : black;
     padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'pt serif';
 }
-
+    
 ol.artistas{
     margin: 0 auto;
+    padding: 0;
 }
 
 
@@ -80,25 +89,96 @@ ol.artistas{
 
 main div.albumes{
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
     justify-content: space-between;
 }
 img.album{
     width: 100%;
+    margin-top: 30px;
 }
 div.fila2{
     display: grid;
-    grid-auto-rows: 30% 30%;
+    grid-auto-rows: 45% 45%;
     justify-content: space-between;
     margin: 0 auto;
 }
 h2.albumess{
-    width: 40%;
-    height: 10%;
-    background-color:black;
-    color: white;
+    width: 90%;
+    height: 30%;
+    border: 3px solid black;
+    background-color:gray;
+    color : black;
     padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'pt serif';
 }
 ol.album{
     margin: 0 auto;
+    padding: 0px;
+    font-family: 'pt serif';
+}
+
+
+
+
+
+main div.otro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+img.otro{
+    width: 100%;
+    margin-top: 30px;
+}
+div.fila3{
+    display: grid;
+    grid-auto-rows: 45% 45%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+h2.otros{
+    width: 90%;
+    height: 30%;
+    border: 3px solid black;
+    background-color:gray;
+    color : black;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'pt serif';
+}
+ol.listadeotros{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'pt serif';
+}
+
+
+
+
+
+footer section{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: gray;
+}
+
+footer div.foot{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+
+ul.footer{
+  
+}
+
+ul.footer li{
+list-style-type: none;
+padding: 5px;
+padding-left: 0px;
+
 }
