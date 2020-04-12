@@ -7,12 +7,12 @@ body{
 }
 
 img.logo{
-    width: 9%;
+    width: 12%;
     border-radius: 50px;
     margin: 0 auto;
     display: block;
     margin-top: 25px;
-    border: 1px solid gray;
+    border: 2px solid black;
 }
 
 ul.navegacion{
@@ -54,7 +54,7 @@ main div.fotoBB{
 }
  img.artista{
      width: 100%;
-     margin: auto;
+     margin-top: 30px;
  }
 
  div.fila1{
@@ -74,16 +74,18 @@ main div.fotoBB{
     margin-top: 40px;
     margin-left: 10px;
     font-family: 'pt serif';
+    text-align: center;
 }
     
 ol.artistas{
     margin: 0 auto;
     padding: 0;
+    font-family: 'roboto';
 }
 
-
-
-
+div.fotoBB2{
+    display: none;
+}
 
 
 
@@ -112,14 +114,16 @@ h2.albumess{
     margin-top: 40px;
     margin-left: 10px;
     font-family: 'pt serif';
+    text-align: center;
 }
 ol.album{
     margin: 0 auto;
     padding: 0px;
-    font-family: 'pt serif';
+    font-family: 'roboto';
 }
-
-
+div.albumes2{
+    display: none;
+}
 
 
 
@@ -149,11 +153,15 @@ h2.otros{
     margin-top: 40px;
     margin-left: 10px;
     font-family: 'pt serif';
+    text-align: center;
 }
 ol.listadeotros{
     margin: 0 auto;
     padding: 0px;
-    font-family: 'pt serif';
+    font-family: 'roboto';
+}
+div.otro2{
+    display: none;
 }
 
 
@@ -164,6 +172,7 @@ footer section{
     margin-top: 25px;
     margin-bottom: 10px;
     background-color: gray;
+    width: 100%;
 }
 
 footer div.foot{
@@ -180,5 +189,90 @@ ul.footer li{
 list-style-type: none;
 padding: 5px;
 padding-left: 0px;
+
+}
+
+@media(min-width: 420px){
+
+
+}
+
+
+@media(min-width:768px){
+
+body header{
+    display: grid;
+    grid-template-columns: 30% 60% 60% 60%;
+    justify-content: space-between;
+}
+img.logo{
+    width: 70px;
+    margin-top: 35px;
+    margin-right: 169px;
+}
+ul.navegacion{
+    margin-top: 50px;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    
+}
+
+main div.fotoBB{
+    display: none;
+}
+main div.fotoBB2{
+    display: block;
+}
+
+main div.albumes{
+    display: none;
+}
+main div.albumes2{
+    display: block;
+}
+
+main div.otro{
+    display: none;
+}
+main div.otro2{
+    display: block;
+}
+
+h2.artistas{
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 25px;
+}
+ol.artistas{
+ margin-left: 20px;
+ margin-bottom: 30px;
+}
+h2.albumess{
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 25px;
+}
+ol.album{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+h2.otros{
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 25px;
+}
+ol.listadeotros{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+
 
 }
