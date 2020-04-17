@@ -41,8 +41,10 @@ ul li a{
     text-decoration: none;
 }
 
+div.uk-position-relativeuk-visible-toggleuk-light{
 
 
+}
 
 
 
@@ -81,6 +83,7 @@ ol.artistas{
     margin: 0 auto;
     padding: 0;
     font-family: 'roboto';
+    color: black;
 }
 
 div.fotoBB2{
@@ -120,6 +123,7 @@ ol.album{
     margin: 0 auto;
     padding: 0px;
     font-family: 'roboto';
+    color: black;
 }
 div.albumes2{
     display: none;
@@ -159,6 +163,7 @@ ol.listadeotros{
     margin: 0 auto;
     padding: 0px;
     font-family: 'roboto';
+    color: black;
 }
 div.otro2{
     display: none;
@@ -172,7 +177,8 @@ footer section{
     margin-top: 25px;
     margin-bottom: 10px;
     background-color: gray;
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 footer div.foot{
@@ -189,6 +195,7 @@ ul.footer li{
 list-style-type: none;
 padding: 5px;
 padding-left: 0px;
+color: black;
 
 }
 
