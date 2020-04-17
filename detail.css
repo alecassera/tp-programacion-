@@ -1,0 +1,70 @@
+body{
+    background-image: url(IMG.FONDO.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+
+img.logo{
+    width: 12%;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+ul.navegacion{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-top: 20px;
+    margin-bottom: 40px;   }
+
+
+ul.navegacion li{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(204, 198, 198);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'quicksand';   
+
+}
+
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    background-color: ;
+    background-color: rgb(204, 198, 198);
+    padding: 2%;
+    border: 2px solid black;
+}
+
+img.artistas {  
+    width: 100%;
+ 
+   
+}
+
+div.PLAYLIST {
+             display: grid;
+             grid-template-columns: 15%, 15%;
+             justify-content: space-between;
+
+}
+
+
+
+
+
+    
