@@ -1,0 +1,278 @@
+
+
+body{
+    background-image: url(IMG.FONDO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.logo{
+    width: 12%;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px;
+    border: 2px solid black;
+}
+
+ul.navegacion{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul.navegacion li{
+    list-style-type: none;
+    text-align: center;
+    background-color: rgb(204, 198, 198);
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-family: 'quicksand';
+}
+
+ul li a{
+    color:black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+main div.fotoBB{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+ img.artista{
+     width: 100%;
+     margin-top: 30px;
+ }
+
+ div.fila1{
+     display: grid;
+     grid-auto-rows: 45% 45%;
+     justify-content: space-between;
+     margin: 0 auto;
+ }
+
+ h2.artistas{
+    width: 90%;
+    height: 30%;
+    border: 3px solid black;
+    background-color:gray;
+    color : black;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'pt serif';
+    text-align: center;
+}
+    
+ol.artistas{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'roboto';
+}
+
+div.fotoBB2{
+    display: none;
+}
+
+
+
+main div.albumes{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+img.album{
+    width: 100%;
+    margin-top: 30px;
+}
+div.fila2{
+    display: grid;
+    grid-auto-rows: 45% 45%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+h2.albumess{
+    width: 90%;
+    height: 30%;
+    border: 3px solid black;
+    background-color:gray;
+    color : black;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'pt serif';
+    text-align: center;
+}
+ol.album{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'roboto';
+}
+div.albumes2{
+    display: none;
+}
+
+
+
+main div.otro{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+img.otro{
+    width: 100%;
+    margin-top: 30px;
+}
+div.fila3{
+    display: grid;
+    grid-auto-rows: 45% 45%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+h2.otros{
+    width: 90%;
+    height: 30%;
+    border: 3px solid black;
+    background-color:gray;
+    color : black;
+    padding: 5px;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-family: 'pt serif';
+    text-align: center;
+}
+ol.listadeotros{
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'roboto';
+}
+div.otro2{
+    display: none;
+}
+
+
+
+
+
+footer section{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    background-color: gray;
+    width: 100%;
+}
+
+footer div.foot{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+
+ul.footer{
+  
+}
+
+ul.footer li{
+list-style-type: none;
+padding: 5px;
+padding-left: 0px;
+
+}
+
+@media(min-width: 420px){
+
+
+}
+
+
+@media(min-width:768px){
+
+body header{
+    display: grid;
+    grid-template-columns: 30% 60% 60% 60%;
+    justify-content: space-between;
+}
+img.logo{
+    width: 70px;
+    margin-top: 35px;
+    margin-right: 169px;
+}
+ul.navegacion{
+    margin-top: 50px;
+
+}
+
+
+main {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    
+}
+
+main div.fotoBB{
+    display: none;
+}
+main div.fotoBB2{
+    display: block;
+}
+
+main div.albumes{
+    display: none;
+}
+main div.albumes2{
+    display: block;
+}
+
+main div.otro{
+    display: none;
+}
+main div.otro2{
+    display: block;
+}
+
+h2.artistas{
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 25px;
+}
+ol.artistas{
+ margin-left: 20px;
+ margin-bottom: 30px;
+}
+h2.albumess{
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 25px;
+}
+ol.album{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+h2.otros{
+    margin-left: 0px;
+    margin-top: 15px;
+    height: 25px;
+}
+ol.listadeotros{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+}
