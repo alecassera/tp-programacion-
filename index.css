@@ -11,7 +11,6 @@ img.logo{
     border-radius: 50px;
     margin: 0 auto;
     display: block;
-    margin-top: 25px;
     border: 2px solid black;
 }
 
@@ -28,25 +27,22 @@ ul.navegacion{
 ul.navegacion li{
     list-style-type: none;
     text-align: center;
-    background-color: rgb(204, 198, 198);
+    background-color:rgb(204, 198, 198) ;
     margin-bottom: 5px;
     padding: 10px;
-    text-align: center;
     border: 2px solid black;
     font-family: 'quicksand';
 }
 
+
 ul li a{
-    color:black;
+    color: black;
     text-decoration: none;
 }
 
 div.uk-position-relativeuk-visible-toggleuk-light{
-
-
+display: none;
 }
-
-
 
 
 main div.fotoBB{
@@ -57,6 +53,8 @@ main div.fotoBB{
  img.artista{
      width: 100%;
      margin-top: 30px;
+     border-radius: 300px;
+     margin-left: 5px;
  }
 
  div.fila1{
@@ -66,24 +64,27 @@ main div.fotoBB{
      margin: 0 auto;
  }
 
- h2.artistas{
-    width: 90%;
+ p.artistas{
+    width: 100%;
     height: 30%;
-    border: 3px solid black;
+    border: 2px solid black;
+    border-radius: 200px;
     background-color:gray;
     color : black;
-    padding: 5px;
-    margin-top: 40px;
+    padding: auto;
+    margin-top: 50px;
     margin-left: 10px;
     font-family: 'pt serif';
     text-align: center;
 }
     
 ol.artistas{
-    margin: 0 auto;
+   
     padding: 0;
     font-family: 'roboto';
     color: black;
+    margin-top: -15px;
+    margin-left: auto;
 }
 
 div.fotoBB2{
@@ -96,10 +97,13 @@ main div.albumes{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-between;
+    margin-top: 20px;
 }
 img.album{
     width: 100%;
     margin-top: 30px;
+    border-radius: 300px;
+    margin-left: 5px;
 }
 div.fila2{
     display: grid;
@@ -107,14 +111,15 @@ div.fila2{
     justify-content: space-between;
     margin: 0 auto;
 }
-h2.albumess{
-    width: 90%;
+p.albumess{
+    width: 100%;
     height: 30%;
-    border: 3px solid black;
+    border: 2px solid black;
+    border-radius: 200px;
     background-color:gray;
     color : black;
-    padding: 5px;
-    margin-top: 40px;
+    padding: auto;
+    margin-top: 55px;
     margin-left: 10px;
     font-family: 'pt serif';
     text-align: center;
@@ -124,6 +129,8 @@ ol.album{
     padding: 0px;
     font-family: 'roboto';
     color: black;
+    margin-top: -8px;
+    margin-left: 30px;
 }
 div.albumes2{
     display: none;
@@ -135,11 +142,14 @@ main div.otro{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 img.otro{
     width: 100%;
     margin-top: 30px;
+    border-radius: 300px;
+    margin-left: 5px;
 }
 div.fila3{
     display: grid;
@@ -147,14 +157,15 @@ div.fila3{
     justify-content: space-between;
     margin: 0 auto;
 }
-h2.otros{
-    width: 90%;
+p.otros{
+    width: 96%;
     height: 30%;
-    border: 3px solid black;
-    background-color:gray;
+    border: 2px solid black;
+    border-radius: 200px;
+    background-color: none;
     color : black;
-    padding: 5px;
-    margin-top: 40px;
+    padding: auto;
+    margin-top: 55px;
     margin-left: 10px;
     font-family: 'pt serif';
     text-align: center;
@@ -164,6 +175,9 @@ ol.listadeotros{
     padding: 0px;
     font-family: 'roboto';
     color: black;
+    margin-top: -10px;
+    margin-left: 30px;
+    
 }
 div.otro2{
     display: none;
@@ -174,7 +188,7 @@ div.otro2{
 
 
 footer section{
-    margin-top: 25px;
+    margin-top: 60px;
     margin-bottom: 10px;
     background-color: gray;
     width: 90%;
@@ -200,7 +214,16 @@ color: black;
 }
 
 @media(min-width: 420px){
-
+div.uk-position-relativeuk-visible-toggleuk-light{
+    display: block;
+    margin-top: 80px;
+}
+main div.fotoBB{
+    margin-top: 30px;
+}
+img.artista{
+    margin-left: 30px;
+}
 
 }
 
@@ -220,6 +243,10 @@ img.logo{
 ul.navegacion{
     margin-top: 50px;
 
+}
+div.uk-position-relativeuk-visible-toggleuk-light{
+    display: block;
+    
 }
 
 
@@ -251,7 +278,7 @@ main div.otro2{
     display: block;
 }
 
-h2.artistas{
+p.artistas{
     margin-left: 0px;
     margin-top: 15px;
     height: 25px;
@@ -260,7 +287,7 @@ ol.artistas{
  margin-left: 20px;
  margin-bottom: 30px;
 }
-h2.albumess{
+p.albumess{
     margin-left: 0px;
     margin-top: 15px;
     height: 25px;
@@ -269,7 +296,7 @@ ol.album{
     margin-left: 20px;
     margin-bottom: 30px;
 }
-h2.otros{
+p.otros{
     margin-left: 0px;
     margin-top: 15px;
     height: 25px;
