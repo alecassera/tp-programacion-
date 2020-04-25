@@ -1,8 +1,9 @@
 body{
-    background-image: url(IMG.FONDO.jpg);
+    background-image: url(fondo\ gris\ difuminado.jpg);
     background-repeat: no-repeat;
-    
+    margin: 0 auto;
     background-size: cover;
+
 }
 
 
@@ -20,7 +21,8 @@ ul.navegacion{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
-    padding-left: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-top: 20px;
     margin-bottom: 40px;   }
 
@@ -44,27 +46,77 @@ ul li a{
 
 h1{
     text-align: center;
-    background-color: ;
-    background-color: rgb(204, 198, 198);
+ background-color: rgb(204, 198, 198);
     padding: 2%;
     border: 2px solid black;
-}
-
-img.artistas {  
-    width: 100%;
+    width: 70%;
  
-   
-}
-
-div.PLAYLIST {
-             display: grid;
-             grid-template-columns: 15%, 15%;
-             justify-content: space-between;
-
 }
 
 
+div {
+      justify-content: space-around;
+      margin: 0 auto;
+}
+
+div.topplaylist{
+    display: grid;
+    grid-template-columns: 40% 40%
+    
+    
+}
+
+ul li {
+    text-emphasis: none;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+}
+ 
+article {
+     
+}
+
+ul {
+    padding-left: 0px  ;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+footer section{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    background-color: gray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+footer div.foot{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+}
+
+ul.footer{
+  
+}
+
+ul.footer li{
+list-style-type: none;
+padding: 5px;
+padding-left: 0px;
+color: black;
+
+}
 
     
