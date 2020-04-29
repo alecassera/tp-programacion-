@@ -50,7 +50,17 @@ ul li a{
 div.uk-position-relativeuk-visible-toggleuk-light{
 display: none;
 }
+a.flechitaDerecha{
+position: absolute;
+left: 0px;
+top: 350px;
+}
 
+a.flechitaIzquierda{
+    position: absolute;
+    right: 0px;
+    top: 350px;
+}
 
 main div.fotoBB{
     display: grid;
@@ -189,8 +199,6 @@ div.otro2{
     display: none;
 }
 
-
-
 footer{
     padding: 20px;
 }
@@ -219,20 +227,69 @@ color: black;
 }
 
 div.foot2 img.deezerlogo{
-    width: 100px;
+    width: 140px;
+    padding: 5px;
+    padding-top: 25px;
 }
 
 
-@media(min-width: 420px){
+
+@media(min-width:420px){
+
+article.ipad{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: space-around;
+}
+img.logo{
+    width: 45%;
+    margin-top: 9%;
+}
+ul.navegacion li{
+    margin-top: 30px;
+}
+
 div.uk-position-relativeuk-visible-toggleuk-light{
     display: block;
     margin-top: 80px;
-}
-main div.fotoBB{
-    margin-top: 30px;
+    margin-bottom: 45px;
 }
 img.artista{
-    margin-left: 30px;
+    border-radius: 200px;
+    margin-left: 10%;
+}
+p.artistas{
+    margin-top: 100px;
+}
+ol.artistas{
+  padding-left: 10px;
+}
+img.album{
+    border-radius: 200px;
+    margin-left: 10%;
+}
+p.albumess{
+    margin-top: 110px;
+}
+ol.album{
+    padding-left: 10px;
+}
+img.otro{
+    border-radius: 200px;
+    margin-left: 10%;
+}
+p.otros{
+    margin-top: 110px;
+}
+ol.listadeotros{
+    padding-left: 7px;
+ }
+ footer section{
+     margin-top:35px ;
+ }
+ div.foot2 img.deezerlogo{
+    position: absolute;
+    right: 80px;
 }
 
 }
@@ -240,10 +297,17 @@ img.artista{
 
 @media(min-width:768px){
 
-body header{
+article.ipad{
     display: grid;
-    grid-template-columns: 30% 60% 60% 60%;
-    justify-content: space-between;
+    grid-template-columns: 20% 75%;
+    justify-content: space-around;
+}
+div.uk-position-relativeuk-visible-toggleuk-light{
+    display: block;
+    margin-top: 80px;
+}
+div.prueba{
+    padding-left: 90px;
 }
 img.logo{
     width: 70px;
@@ -252,20 +316,22 @@ img.logo{
 }
 ul.navegacion{
     margin-top: 50px;
-
 }
 div.uk-position-relativeuk-visible-toggleuk-light{
     display: block;
-    
 }
-
-
+a.flechitaDerecha{
+    top: 400px;
+}
+ a.flechitaIzquierda{
+    top: 400px;
+}
 main {
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
-    margin-top: 100px;
-    
+    margin-top: 55px;
+    align-items: center;
 }
 
 main div.fotoBB{
@@ -288,15 +354,24 @@ main div.otro{
 main div.otro2{
     display: block;
 }
-
+img.artista{
+    margin-left: 0px;
+    margin-top: 15%;
+    border-radius: 50%;
+}
 p.artistas{
     margin-left: 0px;
     margin-top: 15px;
     height: 25px;
 }
 ol.artistas{
- margin-left: 20px;
+ margin-left: 60px;
  margin-bottom: 30px;
+}
+img.album{
+    margin-left: 0px;
+    margin-top: 15%;
+    border-radius: 50%;
 }
 p.albumess{
     margin-left: 0px;
@@ -304,8 +379,13 @@ p.albumess{
     height: 25px;
 }
 ol.album{
-    margin-left: 20px;
+    margin-left: 60px;
     margin-bottom: 30px;
+}
+img.otro{
+    margin-left: 0px;
+    margin-top: 15%;
+    border-radius: 50%;
 }
 p.otros{
     margin-left: 0px;
@@ -313,7 +393,7 @@ p.otros{
     height: 25px;
 }
 ol.listadeotros{
-    margin-left: 20px;
+    margin-left: 60px;
     margin-bottom: 30px;
 }
 
