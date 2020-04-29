@@ -1,7 +1,8 @@
 body {
-   background-image: url(IMG.FONDO.jpg);
+   background-image: url(fondo\ gris\ difuminado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -25,11 +26,12 @@ h1 {
 
 img.logo{
     width: 12%;
-    border-radius: 50px;
+    border-radius: 110px;
     margin: 0 auto;
     display: block;
     margin-top: 25px;
-    border: 2px solid black;
+    border: 3px solid black;
+
 }
 
 ul.navegacion{
@@ -40,6 +42,11 @@ ul.navegacion{
     padding-left: 0%;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
 }
 
 ul.navegacion li{
@@ -54,14 +61,48 @@ ul.navegacion li{
 
 }
 
+.fotoalbum img {
+   width: 28%; 
+}
+
+
+section img {
+   display: grid;
+   grid-template-columns: 30% 30%;
+   grid-template-rows: 30% 30%;
+}
+
+div.fotoalbum {
+    margin-left: 300px;
+
+}
+
 .CANCION1 { 
     padding-bottom: 40PX;
 
 }
 
-.footer {
-    list-style: none;
-    background-color: rgb(87, 83, 83);
-    padding-bottom: 40px;
-    
+footer section{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    background-color: gray;
+    width: 90%;
+    margin-left: 5%;
+}
+
+footer div.foot{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    display: block;
+}
+
+
+
+ul.footer li{
+list-style-type: none;
+padding: 5px;
+padding-left: 0px;
+color: black;
+
 }
