@@ -17,11 +17,17 @@ h1 {
 
 }
 
+
+
  ul.cancionesfav li {
         font-family: "QUICKSAND";
         list-style: none;
         font-size: large;
         padding-top: 30px;
+}
+li p.far {
+    color: black;
+    text-align: center;
 }
 
 img.logo{
@@ -58,11 +64,18 @@ ul.navegacion li{
     text-align: center;
     border: 2px solid black;
     font-family: 'quicksand';
-
 }
 
-.fotoalbum img {
-   width: 28%; 
+section div {
+    padding-left: 50px;
+}
+
+.album{ 
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+section div img {
+    width: 50%;
 }
 
 
@@ -72,15 +85,12 @@ section img {
    grid-template-rows: 30% 30%;
 }
 
-div.fotoalbum {
-    margin-left: 300px;
-
-}
 
 .CANCION1 { 
     padding-bottom: 40PX;
 
 }
+
 
 footer section{
     margin-top: 60px;
@@ -104,5 +114,13 @@ list-style-type: none;
 padding: 5px;
 padding-left: 0px;
 color: black;
+
+}
+
+@media (min-width: 420px) {
+    div.fotoalbum1{
+        display: block;
+        margin-top: 80px;
+    }
 
 }
