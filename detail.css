@@ -3,8 +3,17 @@ body{
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: cover;
-
+    
 }
+
+header{
+    background-color:gray;
+}
+
+div.prueba{
+    padding-top: 10px;
+}
+
 
 
 img.logo{
@@ -12,47 +21,59 @@ img.logo{
     border-radius: 50px;
     margin: 0 auto;
     display: block;
-    margin-top: 25px;
     border: 2px solid black;
+    
 }
 
 ul.navegacion{
 
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right: 2%;
-    margin-top: 20px;
-    margin-bottom: 40px;   }
-
+    padding-left: 0%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 ul.navegacion li{
     list-style-type: none;
     text-align: center;
-    background-color: rgb(204, 198, 198);
     margin-bottom: 5px;
     padding: 10px;
-    text-align: center;
-    border: 2px solid black;
-    font-family: 'quicksand';   
-
+    font-family: 'quicksand';
 }
 
-ul li a{
-    color:black;
-    text-decoration: none;
+
+li a{
+    color: black;
+    
 }
 
-h1{
+
+h1.h1{
     text-align: center;
- background-color: rgb(204, 198, 198);
-    padding: 2%;
+ background-color: gray;
+    padding: 5px;
     border: 2px solid black;
-    width: 70%;
+    width: 80%;
+    color:  black;
+    margin-bottom: 20px;
+    font-family: "quicksand";
+    
+}
  
+
+main {margin-top: 40px;
+
 }
 
+a.uk-accordion-title {
+    color: black;
+    font-family: "quicksand";
+    margin-left: 10px;
+}
 
 div {
       justify-content: space-around;
@@ -66,49 +87,54 @@ div.topplaylist{
     
 }
 
-ul li {
+ul li.album{
     text-emphasis: none;
     text-decoration: none;
-    list-style-type: none;
+  
     padding-left: 0px;
+    text-align: center;
 }
  
-article {
-     
+article.album {
+     color: black
 }
 
-ul {
+ul.album {
     padding-left: 0px  ;
+    margin: 0 auto;
+    list-style-type: disc;
+    
 }
 
 
 
+img.imgalbum {
+    border: 3px solid black;
+}
+ 
+li.download {
+    text-decoration: underline blue;
+    color: blue;
+}
 
-
-
-
-
-
-
-
-
-
+footer{
+    padding: 0px;
+}
 footer section{
-    margin-top: 60px;
-    margin-bottom: 10px;
-    background-color: gray;
-    width: 90%;
-    margin-left: 5%;
-}
-
-footer div.foot{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-around;
+    margin-top: 60px;
+    background-color: gray;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 13px;
 }
 
 ul.footer{
-  
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 30px;
 }
 
 ul.footer li{
@@ -116,7 +142,59 @@ list-style-type: none;
 padding: 5px;
 padding-left: 0px;
 color: black;
+font-family: "quicksand";
+font-size: 18px;
 
 }
 
+div.foot2 img.deezerlogo{
+    width: 100px;
+    margin: 1rem;
+}
+
+
+@media(min-width: 768px) {
+
+h1 { 
+    margin: 0 auto;
+}
+
+
+
+a.uk-accordion-title {
+    font-size: 40px;
+    font-family: "quicksand";
+    margin-left: 15px;
+}
+
+ul li { font-size: 30px }
+
+
+ul.footer li {
+  font-size: 25px;
+}
+ 
+
+
+ @media(min-width:1200px){
+  body {
+      
+  }
+
+  header{
+    display: grid;
+    grid-template-columns: 30% 60% 60% 60%;
+    justify-content: space-between;
+}
+img.logo{
+    width: 100px;
+    margin-top: 35px;
     
+}
+ul.navegacion{
+    margin-top: 50px;
+    width: 800px;
+}
+
+}
+ 
