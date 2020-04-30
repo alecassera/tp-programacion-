@@ -23,25 +23,20 @@ div.uk-margin {
 
 
 img.logo{
-    width: 50%;
-    border-radius: 50px;
-    margin-left: 0%;
+    width: 12%;
+    border-radius: 70px;
+    margin: 0 auto;
     display: block;
     border: 2px solid black;
     
 }
 
-form.buscador {
-    margin-left: 0;
-    margin-top: 90%;
-    margin-bottom: 0%;
-   background-color: white;
-   width: 85%
-   
-   
-
-
-}
+input.uk-search-input{
+    width: 96%;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    }
 
 ul.navegacion{
 
@@ -49,8 +44,8 @@ ul.navegacion{
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
-    margin-top: 8px;
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -66,7 +61,6 @@ ul.navegacion li{
 
 li a{
     color: black;
-    
 }
 
 
@@ -74,12 +68,12 @@ h1.h1{
     text-align: center;
  background-color: gray;
     padding: 5px;
-    border: 2px solid black;
     width: 80%;
-    color:  black;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    margin-top: 8%;
     font-family: "quicksand";
-    
+    padding-right: 6%;
+    padding-left: 5%;
 }
  
 
@@ -122,22 +116,22 @@ ul.album {
     padding-left: 0px  ;
     margin: 0 auto;
     list-style-type: disc;
-    
+    padding-top: 20%;
 }
 
 
 
 img.imgalbum {
-    border: 3px solid black;
+    border-radius: 150%;
 }
  
 li.download {
     text-decoration: underline blue;
-    color: blue;
+    color: black;
 }
 button.boton { 
-    text-decoration: underline blue;
-    color: blue;
+    text-decoration: underline black;
+    color: black;
     font-size: 13px;
     background-color: rgba(180, 188, 189, 0.1);
     border: 1px blue;
@@ -145,7 +139,7 @@ button.boton {
 
 
 footer{
-    padding: 0px;
+    padding: 20px;
 }
 footer section{
     display: grid;
@@ -169,14 +163,12 @@ list-style-type: none;
 padding: 5px;
 padding-left: 0px;
 color: black;
-font-family: "quicksand";
-font-size: 18px;
-
 }
 
 div.foot2 img.deezerlogo{
-    width: 100px;
-    margin: 1rem;
+    width: 140px;
+    padding: 5px;
+    padding-top: 25%; 
 }
 
 
@@ -203,48 +195,46 @@ button.boton {
     font-size: 30px;
 }
 
-
 ul.footer li {
   font-size: 25px;
 }
  
 
-
  @media(min-width:1200px){
  
-
-      header{
+article.ipad{
     display: grid;
-    grid-template-columns: 30% 60% 60% 60%;
-    justify-content: space-between;}
+    grid-template-columns: 30% 70%;
+    justify-content: space-around;
+    }
+img.logo{
+        width: 45%;
+        margin-top: 9%;
+    }
+ul.navegacion li{
+    margin-top: 50%;
     
-    div.uk-margin {
-        display: block;
-        margin-left: 20%;
-        margin-right: 15%;
-        margin-top: 10%;
     }
 
-    div.prueba {
-        margin: 0 auto;
+input.uk-search-input{
+    width: 400%;
+    margin-left: 250%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
     }
 
-    form.buscador{
-        display: block;
-        margin-top: 0%;
-        margin-bottom: 20px;
-    }
 main {
     margin-left: 65px;
 }
-
-img.logo {
-    margin-left: 10px;
-     width: 90%;
-    margin-right: 0px
-    }
-
-
+h1.h1{
+    padding-right: 11%;
+}
+img.logo{
+    width: 150px;
+    margin-top: 35px;
+    margin-right: 100px;
+    border-radius: 90%;
+}
    
     ul.navegacion{
     margin-top: 50px;
