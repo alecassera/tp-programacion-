@@ -177,9 +177,7 @@ ul.footer li {
 
 
  @media(min-width:1200px){
-  body {
-      
-  }
+ 
 
   header{
     display: grid;
@@ -197,4 +195,6 @@ ul.navegacion{
 }
 
 }
- 
+
+
+
