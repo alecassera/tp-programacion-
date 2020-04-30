@@ -1,8 +1,9 @@
-body {
-    background-image: url("../tp-programacion-/fondo\ gris\ difuminado.jpg");
+body{
+    background-image: url(fondo\ gris\ difuminado.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
     background-size: cover;
-   
+    
 }
 
 header{
@@ -13,32 +14,13 @@ div.prueba{
     padding-top: 10px;
 }
 
-div.uk-margin {
-    display: grid;
-    grid-template-columns: 30% 58%;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-img.logo{
-    width: 50%;
+ img.logo{
+    width: 12%;
     border-radius: 50px;
-    margin-left: 12px;
+    margin: 0 auto;
     display: block;
     border: 2px solid black;
 }
-
-form.buscador {
-    margin-left: 8px;
-    margin-top: 90%;
-    margin-bottom: 0%;
-    background-color: white;
-   width: 85%
-   
-   
-}
-
-
 
 ul.navegacion{
 
@@ -46,8 +28,8 @@ ul.navegacion{
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
-    margin-top: 8px;
-    margin-bottom: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -61,34 +43,226 @@ ul.navegacion li{
 }
 
 
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+
+input.uk-search-input{
+    width: 96%;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    }
+
+
 li a{
     color: black;
-    
+}
+
+
+p.h1{
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    margin-bottom: 10%;
+    margin-top: 8%;
+    font-family: "quicksand";
+    margin-left: 12%;
+    color: black;
+    font-size: 25px;
+}
+ 
+
+main {margin-top: 40px;
+    margin-left: 20px;
+
 }
 
 a.uk-accordion-title {
     color: black;
     font-family: "quicksand";
     margin-left: 10px;
-    margin-left: 10%;
+}
+
+div {
+      justify-content: space-around;
+      margin: 0 auto;
+}
+
+div.topplaylist{
+    display: grid;
+    grid-template-columns: 40% 40%
+    
+    
+}
+
+ul li.album{
+    text-emphasis: none;
+    text-decoration: none;
+    
+    padding-left: 0px;
+    text-align: center;
+}
+ 
+article.album {
+     color: black
+}
+
+ul.album {
+    padding-left: 0px  ;
+    margin: 0 auto;
+    list-style-type: disc;
+    padding-top: 0%;
 }
 
 
 
+img.imgalbum {
+    border-radius: 150%;
+}
+ 
+li.download {
+    text-decoration: underline blue;
+    color: blue;
+}
+button.boton { 
+    text-decoration: underline blue;
+    color: blue;
+    font-size: 13px;
+    background-color: rgba(180, 188, 189, 0.1);
+    border: 1px blue;
+}
 
 
-
-
-h1 {
-    font-family: "quicksand";
+footer{
+    padding: 20px;
+}
+footer section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    margin-top: 60px;
     background-color: gray;
-    
-    border: 2px solid black;
     width: 90%;
+    margin-left: 5%;
+    font-size: 13px;
+}
 
+ul.footer{
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
 
+ul.footer li{
+list-style-type: none;
+padding: 5px;
+padding-left: 0px;
+color: black;
+}
 
+div.foot2 img.deezerlogo{
+    width: 140px;
+    padding: 5px;
+    padding-top: 25%; 
+}
 
+a.info {
+    text-decoration: underline blue;
+}
 
-
+@media(min-width: 768px) {
+    article.ipad{
+        display: grid;
+        grid-template-columns: 20% 75%;
+        justify-content: space-around;
     }
+    div.uk-position-relativeuk-visible-toggleuk-light{
+        display: block;
+        margin-top: 80px;
+    }
+    div.prueba{
+        padding-left: 90px;
+    }
+    img.logo{
+        width: 70px;
+        margin-top: 35px;
+        margin-right: 169px;
+    }
+    ul.navegacion{
+        margin-top: 30px;
+    }
+    ul.navegacion li{
+        margin-top: 25%;
+        margin-bottom: 15%;
+    }
+    input.uk-search-input{
+        width: 300%;
+        margin-left: 170%;
+        padding-bottom: 2%;
+        margin-bottom: 5%;
+        }
+        
+p.h1 { 
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+main{
+    margin-left: 28px;
+}
+
+
+ 
+
+ @media(min-width:1200px){
+ 
+article.ipad{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-content: space-around;
+    }
+img.logo{
+        width: 45%;
+        margin-top: 9%;
+    }
+ul.navegacion li{
+    margin-top: 50%;
+    
+    }
+
+input.uk-search-input{
+    width: 400%;
+    margin-left: 250%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    }
+
+main {
+    margin-left: 65px;
+}
+p.h1{
+    font-size: 60px;
+    padding-right: 0%
+    
+}
+img.logo{
+    width: 150px;
+    margin-top: 35px;
+    margin-right: 100px;
+    border-radius: 90%;
+}
+   
+    ul.navegacion{
+    margin-top: 50px;
+    width: 800px;}
+
+    div.pruebados {
+            margin-top: 15%;
+    }
+
+
+  }
