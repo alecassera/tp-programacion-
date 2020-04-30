@@ -27,8 +27,8 @@ ul.navegacion{
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -45,6 +45,13 @@ ul.navegacion li{
 ul li a{
     color: black;
     text-decoration: none;
+}
+
+input.uk-search-input{
+width: 96%;
+margin-left: 2%;
+padding-bottom: 1%;
+margin-bottom: 1%;
 }
 
 div.uk-position-relativeuk-visible-toggleuk-light{
@@ -72,7 +79,7 @@ main div.fotoBB{
      width: 100%;
      margin-top: 30px;
      border-radius: 300px;
-     margin-left: 5px;
+     margin-left: 20px;
  }
 
  div.fila1{
@@ -120,7 +127,7 @@ img.album{
     width: 100%;
     margin-top: 30px;
     border-radius: 300px;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 div.fila2{
     display: grid;
@@ -165,7 +172,7 @@ img.otro{
     width: 100%;
     margin-top: 30px;
     border-radius: 300px;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 div.fila3{
     display: grid;
@@ -234,7 +241,7 @@ div.foot2 img.deezerlogo{
 
 
 
-@media(min-width:420px){
+@media(min-width:564px){
 
 article.ipad{
     display: grid;
@@ -246,9 +253,15 @@ img.logo{
     margin-top: 9%;
 }
 ul.navegacion li{
-    margin-top: 30px;
-}
+    margin-top: 50%;
 
+}
+input.uk-search-input{
+    width: 209%;
+    margin-left: 108%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    }
 div.uk-position-relativeuk-visible-toggleuk-light{
     display: block;
     margin-top: 80px;
@@ -315,8 +328,18 @@ img.logo{
     margin-right: 169px;
 }
 ul.navegacion{
-    margin-top: 50px;
+    margin-top: 30px;
 }
+ul.navegacion li{
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+input.uk-search-input{
+    width: 300%;
+    margin-left: 170%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    }
 div.uk-position-relativeuk-visible-toggleuk-light{
     display: block;
 }
