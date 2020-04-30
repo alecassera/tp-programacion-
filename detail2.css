@@ -1,0 +1,96 @@
+body {
+    background-image: url("../tp-programacion-/fondo\ gris\ difuminado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+header{
+    background-color:gray;
+}
+
+div.prueba{
+    padding-top: 10px;
+}
+
+div.uk-margin {
+    display: grid;
+    grid-template-columns: 30% 58%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+img.logo{
+    width: 50%;
+    border-radius: 50px;
+    margin-left: 12px;
+    display: block;
+    border: 2px solid black;
+    
+    
+}
+
+form.buscador {
+    margin-left: 8px;
+    margin-top: 90%;
+    margin-bottom: 0%;
+    background-color: white;
+   width: 85%
+   
+   
+}
+
+
+
+ul.navegacion{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-top: 8px;
+    margin-bottom: 40px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+ul.navegacion li{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: 'quicksand';
+}
+
+
+li a{
+    color: black;
+    
+}
+
+a.uk-accordion-title {
+    color: black;
+    font-family: "quicksand";
+    margin-left: 10px;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+
+h1 {
+    font-family: "quicksand";
+    background-color: gray;
+    
+    border: 2px solid black;
+    width: 90%;
+
+
+
+
+
+
+    }

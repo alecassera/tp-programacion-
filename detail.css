@@ -14,15 +14,33 @@ div.prueba{
     padding-top: 10px;
 }
 
+div.uk-margin {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 
 
 img.logo{
-    width: 12%;
+    width: 50%;
     border-radius: 50px;
-    margin: 0 auto;
+    margin-left: 0%;
     display: block;
     border: 2px solid black;
     
+}
+
+form.buscador {
+    margin-left: 0;
+    margin-top: 90%;
+    margin-bottom: 0%;
+   background-color: white;
+   width: 85%
+   
+   
+
+
 }
 
 ul.navegacion{
@@ -31,7 +49,7 @@ ul.navegacion{
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-bottom: 40px;
     margin-right: 5px;
     margin-left: 5px;
@@ -66,6 +84,7 @@ h1.h1{
  
 
 main {margin-top: 40px;
+    margin-left: 20px;
 
 }
 
@@ -90,7 +109,7 @@ div.topplaylist{
 ul li.album{
     text-emphasis: none;
     text-decoration: none;
-  
+    
     padding-left: 0px;
     text-align: center;
 }
@@ -116,6 +135,14 @@ li.download {
     text-decoration: underline blue;
     color: blue;
 }
+button.boton { 
+    text-decoration: underline blue;
+    color: blue;
+    font-size: 13px;
+    background-color: rgba(180, 188, 189, 0.1);
+    border: 1px blue;
+}
+
 
 footer{
     padding: 0px;
@@ -159,6 +186,9 @@ h1 {
     margin: 0 auto;
 }
 
+main{
+    margin-left: 28px;
+}
 
 
 a.uk-accordion-title {
@@ -168,6 +198,10 @@ a.uk-accordion-title {
 }
 
 ul li { font-size: 30px }
+
+button.boton {
+    font-size: 30px;
+}
 
 
 ul.footer li {
@@ -179,22 +213,49 @@ ul.footer li {
  @media(min-width:1200px){
  
 
-  header{
+      header{
     display: grid;
     grid-template-columns: 30% 60% 60% 60%;
-    justify-content: space-between;
-}
-img.logo{
-    width: 100px;
-    margin-top: 35px;
+    justify-content: space-between;}
     
-}
-ul.navegacion{
-    margin-top: 50px;
-    width: 800px;
+    div.uk-margin {
+        display: block;
+        margin-left: 20%;
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+
+    div.prueba {
+        margin: 0 auto;
+    }
+
+    form.buscador{
+        display: block;
+        margin-top: 0%;
+        margin-bottom: 20px;
+    }
+main {
+    margin-left: 65px;
 }
 
+img.logo {
+    margin-left: 10px;
+     width: 90%;
+    margin-right: 0px
+    }
+
+
+   
+    ul.navegacion{
+    margin-top: 50px;
+    width: 800px;}
+
+    div.pruebados {
+            margin-top: 15%;
+    }
+
 }
+
 
 
 
