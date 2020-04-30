@@ -24,13 +24,13 @@ img.logo{
 ul.navegacion{
 
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 2%;
 }
 
 ul.navegacion li{
@@ -251,8 +251,7 @@ img.logo{
     margin-top: 9%;
 }
 ul.navegacion li{
-    margin-top: 50%;
-
+    margin-top: 85%;
 }
 input.uk-search-input{
     width: 209%;
@@ -327,6 +326,8 @@ img.logo{
 }
 ul.navegacion{
     margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 30%;
 }
 ul.navegacion li{
     margin-top: 25%;
