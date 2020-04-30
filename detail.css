@@ -8,6 +8,7 @@ body{
 
 header{
     background-color:gray;
+   
 }
 
 div.prueba{
@@ -20,6 +21,9 @@ div.uk-margin {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+
+
 
 
 img.logo{
@@ -64,16 +68,17 @@ li a{
 }
 
 
-h1.h1{
+p.h1{
     text-align: center;
- background-color: gray;
-    padding: 5px;
-    width: 80%;
+    background-color: gray;
+    width: 75%;
     margin-bottom: 10%;
     margin-top: 8%;
     font-family: "quicksand";
-    padding-right: 6%;
-    padding-left: 5%;
+    margin-left: 12%;
+   
+    color: black;
+    font-size: 25px;
 }
  
 
@@ -116,7 +121,7 @@ ul.album {
     padding-left: 0px  ;
     margin: 0 auto;
     list-style-type: disc;
-    padding-top: 20%;
+    padding-top: 0%;
 }
 
 
@@ -127,11 +132,11 @@ img.imgalbum {
  
 li.download {
     text-decoration: underline blue;
-    color: black;
+    color: blue;
 }
 button.boton { 
-    text-decoration: underline black;
-    color: black;
+    text-decoration: underline blue;
+    color: blue;
     font-size: 13px;
     background-color: rgba(180, 188, 189, 0.1);
     border: 1px blue;
@@ -174,7 +179,7 @@ div.foot2 img.deezerlogo{
 
 @media(min-width: 768px) {
 
-h1 { 
+p { 
     margin: 0 auto;
 }
 
@@ -226,7 +231,7 @@ input.uk-search-input{
 main {
     margin-left: 65px;
 }
-h1.h1{
+p.h1{
     padding-right: 11%;
 }
 img.logo{
