@@ -159,8 +159,6 @@ div.albumes2{
     display: none;
 }
 
-
-
 main div.otro{
     display: grid;
     grid-template-columns: 50% 50%;

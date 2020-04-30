@@ -48,8 +48,8 @@ ul.navegacion{
     grid-template-columns: 20% 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0%;
+    margin-bottom: 0%;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -63,8 +63,9 @@ ul.navegacion li{
 }
 
 
-li a{
+ul li a{
     color: black;
+    text-decoration: none;
 }
 
 
@@ -181,7 +182,7 @@ div.foot2 img.deezerlogo{
 p.h1 { 
     margin: 0 auto;
     margin-top: 5%;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 main{
@@ -195,7 +196,7 @@ a.uk-accordion-title {
     margin-left: 15px;
 }
 
-ul li { font-size: 30px }
+ul li { font-size: 20px }
 
 button.boton {
     font-size: 30px;
@@ -206,24 +207,21 @@ ul.footer li {
 }
  
 
- @media(min-width:1200px){
+ @media(min-width:1024px){
  
 article.ipad{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 75%;
     justify-content: space-around;
     }
-img.logo{
-        width: 45%;
-        margin-top: 9%;
-    }
 ul.navegacion li{
-    margin-top: 50%;
-    
-    }
+    margin-top: 25%;
+    margin-bottom: 15%;
+font-size: 15px;
+}
 
 input.uk-search-input{
-    width: 400%;
+    width: 330%;
     margin-left: 250%;
     padding-bottom: 2%;
     margin-bottom: 5%;
@@ -233,15 +231,15 @@ main {
     margin-left: 65px;
 }
 p.h1{
-    font-size: 60px;
+    font-size: 40px;
     padding-right: 0%
     
 }
 img.logo{
-    width: 150px;
-    margin-top: 35px;
-    margin-right: 100px;
+    
     border-radius: 90%;
+    width: 25%;
+    margin-top: 20%;
 }
    
     ul.navegacion{
@@ -251,6 +249,15 @@ img.logo{
     div.pruebados {
             margin-top: 15%;
     }
+
+img.imgalbum{
+    width: 70%;
+    margin-left: 25%;
+}
+ul.album{
+    padding-top: 15%;
+}
+
 
 }
 
