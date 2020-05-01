@@ -9,7 +9,7 @@ h1 {
     font-family: "quicksand";
     color: black;
     background-color: rgba(143, 141, 141, 0.5);
-
+    margin-top: 2%;
 }
 
 header {
@@ -162,6 +162,7 @@ div.prueba2 {
 div.foot2 img.deezerlogo{
     position: absolute;
     right: 80px;
+    margin-right: 3%;
 } 
 
 }

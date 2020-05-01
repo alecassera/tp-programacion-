@@ -225,6 +225,12 @@ img.imgalbum{
 ul.album{
     padding-top: 10%;
 }
+footer section{
+    margin-top:35px ;
+}
+div.foot1{
+    margin-left: 3%;
+}
 
  @media(min-width:1024px){
  

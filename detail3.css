@@ -202,9 +202,6 @@ button.boton {
 ul.footer li {
   font-size: 25px;
 }
- 
-
-
 
 img.imgalbum{
     width: 70%;
@@ -212,6 +209,9 @@ img.imgalbum{
 }
 ul.album{
     padding-top: 10%;
+}
+div.foot1{
+    margin-left: 3%;
 }
 
  @media(min-width:1024px){
