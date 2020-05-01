@@ -1,14 +1,9 @@
 body{
     background-image: url(fondo\ gris\ difuminado.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
     background-size: cover;
-}
-
-h1{
-    color: black;
-    background-color: rgb(143, 141, 141, 0.5);
-    text-align: center;
-    font-family: "quicksand";
+    
 }
 
 header{
@@ -44,20 +39,16 @@ input.uk-search-input{
     margin-bottom: 1%;
     }
 
-ul.TOPS {
-    margin-left: 20px;
-}
-
 ul.navegacion{
 
     display: grid;
-    grid-template-columns: 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% ;
     justify-content: space-between;
     padding-left: 0%;
-    margin-top: 10px;
+    margin-top: 0%;
     margin-bottom: 0%;
     margin-right: 5px;
-    margin-left: 10%;
+    margin-left: 5px;
 }
 
 ul.navegacion li{
@@ -68,15 +59,30 @@ ul.navegacion li{
     font-family: 'quicksand';
 }
 
-div.uk-position-relativeuk-visible-toggleuk-light{
-    display: none;
-}
 
 ul li a{
     color: black;
     text-decoration: none;
 }
+
+
+p.h1{
+    text-align: center;
+    background-color: gray;
+    width: 75%;
+    margin-bottom: 10%;
+    margin-top: 8%;
+    font-family: "quicksand";
+    margin-left: 12%;
+    color: black;
+    font-size: 25px;
+}
  
+
+main {margin-top: 40px;
+    margin-left: 20px;
+
+}
 
 a.uk-accordion-title {
     color: black;
@@ -168,7 +174,18 @@ div.foot2 img.deezerlogo{
 }
 
 
-@media(min-width:420px) {
+@media(min-width: 768px) {
+
+p.h1 { 
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+main{
+    margin-left: 28px;
+}
+
 
 a.uk-accordion-title {
     font-size: 40px;
@@ -181,16 +198,23 @@ ul li { font-size: 20px }
 button.boton {
     font-size: 30px;
 }
-li a.uk-accordion-title{
-    font-size: 20px;
-}
 
 ul.footer li {
   font-size: 25px;
 }
  
 
- @media(min-width:768px){
+
+
+img.imgalbum{
+    width: 70%;
+    margin-left: 25%;
+}
+ul.album{
+    padding-top: 10%;
+}
+
+ @media(min-width:1024px){
  
 article.ipad{
     display: grid;

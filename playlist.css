@@ -41,7 +41,7 @@ img.logo{
 ul.navegacion{
 
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
     margin-top: 0%;
@@ -129,10 +129,10 @@ article.ipad{
 }
 img.logo{
     width: 45%;
-    margin-top: 9%;
+    margin-top: 15%;
 }
 ul.navegacion li{
-    margin-top: 50%;
+    margin-top: 85%;
 }
 input.uk-search-input{
     width: 209%;
@@ -150,6 +150,13 @@ div.fotoalbum{
 }
 footer section{
     margin-top:35px ;
+}
+div.prueba {
+    padding-top: 0px;
+}
+
+div.prueba2 {
+    margin-left: 40px;
 }
 
 div.foot2 img.deezerlogo{
