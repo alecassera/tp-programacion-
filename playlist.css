@@ -126,7 +126,7 @@ article.ipad{
     display: grid;
     grid-template-columns: 30% 70%;
     justify-content: space-around;
-}
+} 
 img.logo{
     width: 45%;
     margin-top: 15%;
