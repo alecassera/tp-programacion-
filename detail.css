@@ -6,11 +6,16 @@ body{
     
 }
 
-h1{
-    color: black;
-    background-color: rgb(143, 141, 141, 0.5);
+p.h1{
     text-align: center;
+    background-color: gray;
+    width: 75%;
+    margin-bottom: 10%;
+    margin-top: 8%;
     font-family: "quicksand";
+    margin-left: 12%;
+    color: black;
+    font-size: 25px;
 }
 
 header{
