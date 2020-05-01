@@ -167,6 +167,9 @@ div.foot2 img.deezerlogo{
 }
 
 @media (min-width: 768px){
+    ul.cancionesfav{
+        margin-left: 25%;
+    }
 
 article.ipad{
     display: grid;
