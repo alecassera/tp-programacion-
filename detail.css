@@ -213,9 +213,6 @@ ul.footer li {
   font-size: 25px;
 }
  
-
-
-
 img.imgalbum{
     width: 70%;
     margin-left: 25%;
@@ -230,11 +227,13 @@ article.ipad{
     display: grid;
     grid-template-columns: 20% 75%;
     justify-content: space-around;
-    }
+}
+ 
 ul.navegacion li{
     margin-top: 25%;
     margin-bottom: 15%;
-font-size: 15px;
+    font-size: 18px;
+    margin-top: 40%;
 }
 
 input.uk-search-input{
