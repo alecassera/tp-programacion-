@@ -239,7 +239,7 @@ div.foot2 img.deezerlogo{
 
 
 
-@media(min-width:564px){
+@media(min-width:768px){
 
 article.ipad{
     display: grid;
@@ -265,7 +265,7 @@ div.uk-position-relativeuk-visible-toggleuk-light{
     margin-bottom: 45px;
 }
 img.artista{
-    border-radius: 200px;
+    border-radius: 250px;
     margin-left: 10%;
 }
 p.artistas{
@@ -275,7 +275,7 @@ ol.artistas{
   padding-left: 10px;
 }
 img.album{
-    border-radius: 200px;
+    border-radius: 250px;
     margin-left: 10%;
 }
 p.albumess{
@@ -285,7 +285,7 @@ ol.album{
     padding-left: 10px;
 }
 img.otro{
-    border-radius: 200px;
+    border-radius: 250px;
     margin-left: 10%;
 }
 p.otros{
@@ -300,12 +300,13 @@ ol.listadeotros{
  div.foot2 img.deezerlogo{
     position: absolute;
     right: 80px;
+    width: 25%;
+    padding: 5%;
+    padding-top: 3%;
 }
 
-}
 
-
-@media(min-width:768px){
+@media(min-width:1024px){
 
 article.ipad{
     display: grid;
@@ -389,6 +390,7 @@ p.artistas{
 ol.artistas{
  margin-left: 60px;
  margin-bottom: 30px;
+ padding-left: 30%;
 }
 img.album{
     margin-left: 0px;
@@ -403,6 +405,7 @@ p.albumess{
 ol.album{
     margin-left: 60px;
     margin-bottom: 30px;
+    padding-left: 30%;
 }
 img.otro{
     margin-left: 0px;
@@ -413,13 +416,18 @@ p.otros{
     margin-left: 0px;
     margin-top: 15px;
     height: 25px;
+
 }
 ol.listadeotros{
     margin-left: 60px;
     margin-bottom: 30px;
+    padding-left: 30%;
 }
-
-
-
+div.foot2 img.deezerlogo {
+    width: 30%;
+    padding: 5px;
+    margin-left: 70%;
+    position: relative;
+}
 
 }

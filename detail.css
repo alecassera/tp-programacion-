@@ -6,11 +6,16 @@ body{
     
 }
 
-h1{
-    color: black;
-    background-color: rgb(143, 141, 141, 0.5);
+p.h1{
     text-align: center;
+    background-color: gray;
+    width: 75%;
+    margin-bottom: 10%;
+    margin-top: 8%;
     font-family: "quicksand";
+    margin-left: 12%;
+    color: black;
+    font-size: 25px;
 }
 
 header{
@@ -213,9 +218,6 @@ ul.footer li {
   font-size: 25px;
 }
  
-
-
-
 img.imgalbum{
     width: 70%;
     margin-left: 25%;
@@ -230,11 +232,13 @@ article.ipad{
     display: grid;
     grid-template-columns: 20% 75%;
     justify-content: space-around;
-    }
+}
+ 
 ul.navegacion li{
     margin-top: 25%;
     margin-bottom: 15%;
-font-size: 15px;
+    font-size: 18px;
+    margin-top: 40%;
 }
 
 input.uk-search-input{
