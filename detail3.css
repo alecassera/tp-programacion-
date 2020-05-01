@@ -1,0 +1,249 @@
+body{
+    background-image: url(fondo\ gris\ difuminado.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    background-color: rgb(143, 141, 141, 0.5);
+    text-align: center;
+    font-family: "quicksand";
+}
+
+header{
+    background-color:gray;
+   
+}
+
+div.prueba{
+    padding-top: 10px;
+}
+
+div.uk-margin {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+img.logo{
+    width: 12%;
+    border-radius: 70px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+    
+}
+
+input.uk-search-input{
+    width: 96%;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    }
+
+ul.TOPS {
+    margin-left: 20px;
+}
+
+ul.navegacion{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    margin-right: 5px;
+    margin-left: 10%;
+}
+
+ul.navegacion li{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: 'quicksand';
+}
+
+div.uk-position-relativeuk-visible-toggleuk-light{
+    display: none;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+ 
+
+a.uk-accordion-title {
+    color: black;
+    font-family: "quicksand";
+    margin-left: 10px;
+}
+
+div {
+      justify-content: space-around;
+      margin: 0 auto;
+}
+
+div.topplaylist{
+    display: grid;
+    grid-template-columns: 40% 40%
+    
+    
+}
+
+ul li.album{
+    text-emphasis: none;
+    text-decoration: none;
+    
+    padding-left: 0px;
+    text-align: center;
+}
+ 
+article.album {
+     color: black
+}
+
+ul.album {
+    padding-left: 0px  ;
+    margin: 0 auto;
+    list-style-type: disc;
+    padding-top: 0%;
+}
+
+
+
+img.imgalbum {
+    border-radius: 150%;
+}
+ 
+li.download {
+    text-decoration: underline blue;
+    color: blue;
+}
+button.boton { 
+    text-decoration: underline blue;
+    color: blue;
+    font-size: 13px;
+    background-color: rgba(180, 188, 189, 0.1);
+    border: 1px blue;
+}
+
+
+footer{
+    padding: 20px;
+}
+footer section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-around;
+    margin-top: 60px;
+    background-color: gray;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 13px;
+}
+
+ul.footer{
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+ul.footer li{
+list-style-type: none;
+padding: 5px;
+padding-left: 0px;
+color: black;
+}
+
+div.foot2 img.deezerlogo{
+    width: 140px;
+    padding: 5px;
+    padding-top: 25%; 
+}
+
+
+@media(min-width:420px) {
+
+a.uk-accordion-title {
+    font-size: 40px;
+    font-family: "quicksand";
+    margin-left: 15px;
+}
+
+ul li { font-size: 20px }
+
+button.boton {
+    font-size: 30px;
+}
+li a.uk-accordion-title{
+    font-size: 20px;
+}
+
+ul.footer li {
+  font-size: 25px;
+}
+ 
+
+ @media(min-width:768px){
+ 
+article.ipad{
+    display: grid;
+    grid-template-columns: 20% 75%;
+    justify-content: space-around;
+    }
+ul.navegacion li{
+    margin-top: 25%;
+    margin-bottom: 15%;
+font-size: 15px;
+}
+
+input.uk-search-input{
+    width: 330%;
+    margin-left: 250%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    }
+
+main {
+    margin-left: 65px;
+}
+p.h1{
+    font-size: 40px;
+    padding-right: 0%
+    
+}
+img.logo{
+    
+    border-radius: 90%;
+    width: 25%;
+    margin-top: 20%;
+}
+   
+    ul.navegacion{
+    margin-top: 50px;
+    width: 800px;}
+
+    div.pruebados {
+            margin-top: 15%;
+    }
+
+img.imgalbum{
+    width: 70%;
+    margin-left: 25%;
+}
+ul.album{
+    padding-top: 15%;
+}
+
+
+}
+
+
+
+

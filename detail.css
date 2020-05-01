@@ -6,6 +6,13 @@ body{
     
 }
 
+h1{
+    color: black;
+    background-color: rgb(143, 141, 141, 0.5);
+    text-align: center;
+    font-family: "quicksand";
+}
+
 header{
     background-color:gray;
    
