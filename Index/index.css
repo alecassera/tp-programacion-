@@ -1,7 +1,7 @@
 
 
 body{
-    background-image: url(fondo\ gris\ difuminado.jpg);
+    background-image: url(../img/fondo\ gris\ difuminado.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -111,6 +111,10 @@ ol.artistas{
     font-size: 14px;
 }
 
+ol.artistas a{
+    color: black;
+}
+
 div.fotoBB2{
     display: none;
 }
@@ -154,6 +158,11 @@ ol.album{
     margin-left: 30px;
     font-size: 14px;
 }
+
+ol.album a{
+color: black;
+}
+
 div.albumes2{
     display: none;
 }
@@ -197,8 +206,12 @@ ol.listadeotros{
     margin-top: -10px;
     margin-left: 30px;
     font-size: 14px;
-    
 }
+
+ol.listadeotros a{
+    color: black;
+}
+
 div.otro2{
     display: none;
 }
