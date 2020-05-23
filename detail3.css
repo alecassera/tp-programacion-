@@ -110,7 +110,7 @@ ul li.album{
     text-align: center;
 }
  
-article.album {
+nav.album {
      color: black
 }
 
@@ -216,7 +216,7 @@ div.foot1{
 
  @media(min-width:1024px){
  
-article.ipad{
+nav.ipad{
     display: grid;
     grid-template-columns: 20% 75%;
     justify-content: space-around;

@@ -116,7 +116,6 @@ div.fotoBB2{
 }
 
 
-
 main div.albumes{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -207,7 +206,7 @@ div.otro2{
 footer{
     padding: 20px;
 }
-footer section{
+footer nav{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-around;
@@ -231,6 +230,17 @@ padding-left: 0px;
 color: black;
 }
 
+div.RedesSociales ul{
+display: grid;
+grid-template-columns: 2% 2% 2% 2%;
+column-gap:5% ;
+}
+
+ul.Redes li {
+    list-style-type: none;
+    gap: 2%;
+}
+
 div.foot2 img.deezerlogo{
     width: 140px;
     padding: 5px;
@@ -241,7 +251,7 @@ div.foot2 img.deezerlogo{
 
 @media(min-width:768px){
 
-article.ipad{
+nav.ipad{
     display: grid;
     grid-template-columns: 30% 70%;
     justify-content: space-around;
@@ -294,7 +304,7 @@ p.otros{
 ol.listadeotros{
     padding-left: 7px;
  }
- footer section{
+ footer nav{
      margin-top:35px ;
  }
  div.foot2 img.deezerlogo{
@@ -308,7 +318,7 @@ ol.listadeotros{
 
 @media(min-width:1024px){
 
-article.ipad{
+nav.ipad{
     display: grid;
     grid-template-columns: 20% 75%;
     justify-content: space-around;
@@ -346,7 +356,7 @@ div.uk-position-relativeuk-visible-toggleuk-light{
 a.flechitaDerecha{
     top: 400px;
 }
- a.flechitaIzquierda{
+a.flechitaIzquierda{
     top: 400px;
 }
 main {
