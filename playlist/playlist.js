@@ -9,6 +9,6 @@ fetch ("") //url
 .then(function(information){
     let playlist = information.data;
     console.log (playlist);
-
+ 
     let 
 })
