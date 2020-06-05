@@ -5,6 +5,7 @@ body{
 }
 header{
     background-color:gray;
+    margin: 0%;
 }
 
 div.prueba{
@@ -78,9 +79,20 @@ a.HiperDeGeneros{
 }
 
 .fotogeneros{
-    width: 20%;
-    margin-bottom: 5%;
-    
+    width: 75%;
+    margin-bottom: 15%;
+    border-radius: 55%;
+    margin-left: 15%;
+
+}
+
+h2{
+margin-left: 10%;
+text-align: center;
+}
+
+img{
+
 }
 
 footer{
@@ -153,6 +165,7 @@ div.foot2 img.deezerlogo{
     .Boton{
         width: 10%;
     }
+   
    
    footer nav{
        margin-top:35px ;

@@ -18,7 +18,7 @@ window.addEventListener ('load', function(){
  
           console.log(FotoDelGenero)
 
-        let NuevosGeneros = '<div><h2><a class="HiperDeGeneros" href="../albumes/detail.html">' + NombreDelGenero + '</a></h2><img class="fotogeneros" src= ' + FotoDelGenero +'alt=""></div>'
+        let NuevosGeneros = '<div><h2><a class="HiperDeGeneros" href="../albumes/detail.html">' + NombreDelGenero + '</a></h2><img class="fotogeneros" src="' + FotoDelGenero +'" alt=""></div>'
  
         document.querySelector ("div.generos").innerHTML += NuevosGeneros
         }

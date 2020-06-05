@@ -15,7 +15,19 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + l
         let CancionesBuscadas = informacion.data;
 
         if (CancionesBuscadas.length == 0) {
-            alert("No hay resultados");
+            alert("No hay resultados de su busqueda");
+
+            let pregunta = "desea volver a la pagina principal?"
+            let alerta = confirm (pregunta)
+
+            if (alerta == true) {
+               window.location.href= "../index/index.html"
+
+            }else {
+                    let titulo = document.querySelector ("h2");
+                    titulo.innerHTML = "Lamentamos que no quieras continuar en este sitio, esperamos que vuelvas a visitarnos pronto!"
+            }
+            
         }
 
         for (let index = 0; index < CancionesBuscadas.length; index++) {
