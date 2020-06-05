@@ -48,11 +48,12 @@ ul li a{
 }
 
 .BUSCADOR{
-     width: 80%;
-     margin-left: 2%;
-     padding-bottom: 1%;
-     margin-bottom: 1%;
-}
+    width: 70%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    }
+
 
 li.CancionesBusacadass{
     list-style-type: none;
@@ -130,11 +131,15 @@ div.foot2 img.deezerlogo{
  ul.navegacion li{
     margin-top: 85%;
     }
-.BUSCADOR{
-    width: 150%;
-    margin-left: 108%;
-    padding-bottom: 1%;
-    margin-bottom: 3%;
+ .BUSCADOR{
+        width: 48%;
+        margin: 3%;
+        padding-bottom: 1%;
+        margin-bottom: 3%;
+        margin-left: 34%;
+        }
+ .Boton{
+        width: 10%;
     }
 
 footer nav{
@@ -174,11 +179,16 @@ ul.navegacion li{
     margin-bottom: 15%;
 }
 .BUSCADOR{
-    width: 300%;
-    margin-left: 170%;
-    padding-bottom: 2%;
-    margin-bottom: 5%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    width: 34%;
+    margin-left: 48%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     }
+.Boton{
+    width: 10%;
+}
 div.foot2 img.deezerlogo {
     width: 30%;
     padding: 5px;
