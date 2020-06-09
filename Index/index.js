@@ -50,8 +50,10 @@ window.addEventListener ('load', function(){
             
             let NombresArtistas = TopArtistas.name
             
-            let NuevaListaArtistas = "<li><a href='../artistas/detail2.html'>" + NombresArtistas +"</a></li>"
-  
+            let id = TopArtistas.id
+
+            let NuevaListaArtistas = "<li><a href='../artistas/detail2.html?idArtista="+ id +"'>" + NombresArtistas +"</a></li>"
+            
             document.querySelector ("ol.artistas").innerHTML += NuevaListaArtistas
             document.querySelector ("div.fotoBB2 ol.artistas").innerHTML += NuevaListaArtistas
           }
