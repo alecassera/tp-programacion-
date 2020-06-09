@@ -1,49 +1,60 @@
-console.log(34)
+
 window.addEventListener("load", function() {
- console.log (33)
-fetch( "https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/27")
+
+  let queryString = new URLSearchParams(location.search);
+
+  let idArtistas = queryString.get("idArtista");
+
+fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idArtistas)
      
   .then(
-            function(respuesta) {
-                return respuesta.json();
-            }
-        )
+    function(respuesta){
+        return respuesta.json();
+  })
 
   .then(
-         function(informacion) {
-             let deezerArtistas = informacion.data;
-                  console.log(informacion)
-         }
-
-  )
-
-
+    function(informacion) {
+        
+      let artistas = informacion          
+ 
+      let nombre = artistas.name          
+  
 
 
+       console.log(artistas)
+       console.log(nombre)
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
+    
+    
   })
+  
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
