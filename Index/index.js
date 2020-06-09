@@ -35,9 +35,9 @@ window.addEventListener ('load', function(){
       console.log( Artistas );
 
         for (let index = 0; index < 1; index++) {
-            const TopArtistas = Artistas[index];
+            const TopArtistas1 = Artistas[index];
 
-            let Foto = TopArtistas.picture
+            let Foto = TopArtistas1.picture
 
             let NuevaFotoArtistas = "<img class='artista' src=" + Foto + "></li>"
 
@@ -50,9 +50,9 @@ window.addEventListener ('load', function(){
             
             let NombresArtistas = TopArtistas.name
             
-            let id = TopArtistas.id
+            let idArtista = TopArtistas.id
 
-            let NuevaListaArtistas = "<li><a href='../artistas/detail2.html?idArtista="+ id +"'>" + NombresArtistas +"</a></li>"
+            let NuevaListaArtistas =  `<li><a href="../artistas/detail2.html?idArtista= `+ idArtista + `"> ` + NombresArtistas + `</a></li>`
             
             document.querySelector ("ol.artistas").innerHTML += NuevaListaArtistas
             document.querySelector ("div.fotoBB2 ol.artistas").innerHTML += NuevaListaArtistas

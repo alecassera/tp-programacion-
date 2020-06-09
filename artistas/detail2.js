@@ -1,4 +1,3 @@
-
 window.addEventListener("load", function() {
 
   let queryString = new URLSearchParams(location.search);
@@ -17,12 +16,12 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
         
       let artistas = informacion          
  
+     console.log(artistas)
+
+
       let nombre = artistas.name          
-  
 
-
-       console.log(artistas)
-       console.log(nombre)
+      console.log(nombre)
       
 
         
