@@ -42,6 +42,7 @@ window.addEventListener ('load', function(){
             let NuevaFotoArtistas = "<img class='artista' src=" + Foto + "></li>"
 
             document.querySelector ("div.fotoBB").innerHTML = NuevaFotoArtistas + document.querySelector ("div.fotoBB").innerHTML
+            document.querySelector ("div.fotoBB2").innerHTML = NuevaFotoArtistas + document.querySelector ("div.fotoBB2").innerHTML
         }
 
         for (let index = 0; index < 5 ; index++) {
@@ -52,25 +53,6 @@ window.addEventListener ('load', function(){
             let NuevaListaArtistas = "<li><a href='../artistas/detail2.html'>" + NombresArtistas +"</a></li>"
   
             document.querySelector ("ol.artistas").innerHTML += NuevaListaArtistas
-          }
-    
-          for (let index = 0; index < 1; index++) {
-            const TopArtistas = Artistas[index];
-
-            let Foto = TopArtistas.picture
-
-            let NuevaFotoArtistas = "<img class='artista' src=" + Foto + "></li>"
-
-            document.querySelector ("div.fotoBB2").innerHTML = NuevaFotoArtistas + document.querySelector ("div.fotoBB2").innerHTML
-          }
-
-           for (let index = 0; index < 5 ; index++) {
-            const TopArtistas = Artistas [index];
-          
-            let NombresArtistas = TopArtistas.name
-          
-            let NuevaListaArtistas = "<li><a href='../artistas/detail2.html'>" + NombresArtistas +"</a></li>"
-
             document.querySelector ("div.fotoBB2 ol.artistas").innerHTML += NuevaListaArtistas
           }
 
@@ -96,6 +78,7 @@ window.addEventListener ('load', function(){
             let NuevaFotoAlbum = "<img class='album' src=" + FotoAlbum + "></li>"
 
             document.querySelector ("div.albumes").innerHTML = NuevaFotoAlbum + document.querySelector ("div.albumes").innerHTML
+            document.querySelector ("div.albumes2").innerHTML = NuevaFotoAlbum + document.querySelector ("div.albumes2").innerHTML
         }
 
         for (let index = 0; index < 5 ; index++) {
@@ -106,27 +89,9 @@ window.addEventListener ('load', function(){
             let NuevaListaAlbumes = "<li><a href='../albumes/detail.html'>" + NombresAlbumes +"</a></li>"
   
             document.querySelector ("ol.album").innerHTML += NuevaListaAlbumes
+            document.querySelector ("div.albumes2 ol.album").innerHTML += NuevaListaAlbumes
           }
     
-          for (let index = 0; index < 1; index++) {
-            const TopAlbumes = Albumes[index];
-
-            let FotoAlbum = TopAlbumes.cover
-
-            let NuevaFotoArtistas = "<img class='album' src=" + FotoAlbum + "></li>"
-
-            document.querySelector ("div.albumes2").innerHTML = NuevaFotoArtistas + document.querySelector ("div.albumes2").innerHTML
-        }
-
-        for (let index = 0; index < 5 ; index++) {
-          const TopAlbumes = Albumes [index];
-          
-          let NombresAlbumes = TopAlbumes.title
-          
-          let NuevaListaAlbumes = "<li><a href='../albumes/detail.html'>" + NombresAlbumes +"</a></li>"
-
-          document.querySelector ("div.albumes2 ol.album").innerHTML += NuevaListaAlbumes
-        }
 
     })
 
@@ -147,6 +112,7 @@ window.addEventListener ('load', function(){
             let NuevaFotoCanciones = "<img class='otro' src=" + FotoCanciones + "></li>"
 
             document.querySelector ("div.otro").innerHTML = NuevaFotoCanciones + document.querySelector ("div.otro").innerHTML
+            document.querySelector ("div.otro2").innerHTML = NuevaFotoCanciones + document.querySelector ("div.otro2").innerHTML
         }
 
         for (let index = 0; index < 5 ; index++) {
@@ -157,27 +123,8 @@ window.addEventListener ('load', function(){
             let NuevaListaCanciones = "<li><a href='../canciones/detail3.html'>" + NombresCanciones +"</a></li>"
   
             document.querySelector ("ol.listadeotros").innerHTML += NuevaListaCanciones
+            document.querySelector ("div.otro2 ol.listadeotros").innerHTML += NuevaListaCanciones
           }
-    
-          for (let index = 0; index < 1; index++) {
-            const TopCanciones = Canciones [index];
-
-            let FotoCanciones = TopCanciones.album.cover
-
-            let NuevaFotoCanciones = "<img class='otro' src=" + FotoCanciones + "></li>"
-
-            document.querySelector ("div.otro2").innerHTML = NuevaFotoCanciones + document.querySelector ("div.otro2").innerHTML
-        }
-
-        for (let index = 0; index < 5 ; index++) {
-          const TopCanciones = Canciones [index];
-          
-          let NombresCanciones = TopCanciones.title
-          
-          let NuevaListaCanciones = "<li><a href='../canciones/detail3.html'>" + NombresCanciones +"</a></li>"
-
-          document.querySelector ("div.otro2 ol.listadeotros").innerHTML += NuevaListaCanciones
-        }
 
     })
 
