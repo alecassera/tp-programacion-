@@ -1,14 +1,26 @@
 window.addEventListener('load', function() {
 
-fetch ("") //url
+if(localStorage.getItem(cancionesFavoritas) != null) {
 
-.then (function (response){
-    return response.json()
-})
+  let cancionesFavoritas = localStorage.getItem("cancionesFavoritas").split(",")
+}
+for (let i = 0 ; i < cancionesFavoritas.length; i)
 
-.then(function(information){
-    let playlist = information.data;
-    console.log (playlist);
+.then 
+    (function (response){
+      return response.json()
+    }
+)
+
+.then(
+    function(resultado){
+         let playlist = resultado.data;
+
+         console.log (playlist);
  
-    let 
+        let 
+
+ 
+iframe = "<iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=954848452&app_id=1" width="700" height="240"></iframe>"
+
 })

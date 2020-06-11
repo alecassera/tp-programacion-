@@ -14,33 +14,31 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit-icons.min.js"></script>
     <script src="https://kit.fontawesome.com/f1796c7cd9.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="index.js"></script>
+        <script src="playlist.js"></script>
         <link rel="stylesheet" href="playlist.css">
     </head>
-  
-<body>
-    <div class="contenedor">
-        <header>
-            <article class="ipad">
-               <div class="prueba">
-                 <img src="../img/LOGO.jpg" alt="logotipo" class="logo">
-               </div>
-               <div class="prueba 2">
-                  <ul class="navegacion">
-                     <li> <a href="#">GENEROS</a></li>
-                     <li> <a href="index.html">HOME</a></li>
-                     <li> <a href="playlist.html"> <i class="fas fa-heart"></i></a></li>
-                  </ul>
-              </div>
-              <div class="buscador">
-                <form class="buscador">
-                    
-                  <input class="uk-search-input" type="search" placeholder="Search...">
-                  
-              </form>
-              </div>
-            </article> 
-        </header>
+    <body>
+        <div class="contenedor">
+            <header>
+                <nav class="ipad">
+                   <div class="prueba">
+                     <img src="../img/LOGO.jpg" alt="logotipo" class="logo">
+                   </div>
+                   <div class="prueba2">
+                      <ul class="navegacion">
+                         <li> <a href="../generos/generos.html">GENEROS</a></li>
+                         <li> <a href="index.html">HOME</a></li>
+                         <li> <a href="../playlist/playlist.html"> <i class="fas fa-heart"></i></a></li>
+                      </ul>
+                  </div>
+                </nav> 
+                <div class="buscador">
+                  <form action="../buscador/resultados.html" method="GET" class="buscador">
+                      <input class="BUSCADOR" type="text" name="buscador" id="" placeholder="Que quiere escuchar?...">
+                      <input class="Boton" type="submit" value="Buscar">
+                  </form>
+                </div>
+            </header>
         
         <main>
             <h1>CANCIONES FAVORITAS</h2>

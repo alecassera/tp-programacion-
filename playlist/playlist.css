@@ -11,7 +11,7 @@ h1 {
     background-color: rgba(143, 141, 141, 0.5);
     margin-top: 2%;
 } 
-
+ 
 header {
     background-color:  gray;
 }
@@ -54,6 +54,12 @@ ul.navegacion{
     color: black;
     text-decoration: none;
 }
+.BUSCADOR{
+    width: 70%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    }
 
 ul.navegacion li{
     list-style-type: none;
@@ -118,7 +124,7 @@ div.foot2 img.deezerlogo{
     padding: 5px;
     padding-top: 25px;
 
-} 
+}
 
 div.RedesSociales ul{
     display: grid;
@@ -144,6 +150,17 @@ img.logo{
 }
 ul.navegacion li{
     margin-top: 85%;
+}
+
+.BUSCADOR{
+    width: 48%;
+    margin: 3%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    margin-left: 34%;
+    }
+.Boton{
+    width: 10%;
 }
 input.uk-search-input{
     width: 209%;
@@ -213,6 +230,17 @@ ul.navegacion li{
     margin-top: 25%;
     margin-bottom: 15%;
 }
+.BUSCADOR{
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    width: 34%;
+    margin-left: 48%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    }
+    .Boton{
+        width: 10%;
+    }
 input.uk-search-input{
     width: 300%;
     margin-left: 170%;
