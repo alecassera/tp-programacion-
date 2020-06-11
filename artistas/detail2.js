@@ -29,13 +29,19 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
       
 
      let artistasHTML = `
-         <section class= "playlist">
+        <section class= "playlist">
                     <img src="` + imagen + `">
-                     
-         </section>
+        </section>
+        <article>
+        <ol>
             <li>
                      <p>` + nombre + `<p>
            </li>
+           <li>
+                  <p>  `+ fans + ` </p>
+           </li>
+           </ol>
+        <article/>
                    `
       document.querySelector(".topplaylist").innerHTML += artistasHTML
     

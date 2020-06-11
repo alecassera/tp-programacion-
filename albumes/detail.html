@@ -21,145 +21,59 @@
 <body>
     <div class="contenedor">
         <header>
-            <article class="ipad">
+            <nav class="ipad">
                <div class="prueba">
                  <img src="../img/LOGO.jpg" alt="logotipo" class="logo">
                </div>
                <div class="prueba2">
                   <ul class="navegacion">
-                     <li> <a href="#">GENEROS</a></li>
-                    
+                     <li> <a href="../generos/generos.html">GENEROS</a></li>
                      <li> <a href="index.html">HOME</a></li>
-                     <li> <a href="playlist.html"><i class="fas fa-heart"></i></a></li>
+                     <li> <a href="../playlist/playlist.html"> <i class="fas fa-heart"></i></a></li>
                   </ul>
               </div>
-              <div class="buscador">
-                <form class="buscador">
-                    
-                  <input class="uk-search-input" type="search" placeholder="Search...">
-                  
+            </nav> 
+            <div class="buscador">
+              <form action="../buscador/resultados.html" method="GET" class="buscador">
+                  <input class="BUSCADOR" type="text" name="buscador" id="" placeholder="Que quiere escuchar?...">
+                  <input class="Boton" type="submit" value="Buscar">
               </form>
-              </div>
-            </article> 
+            </div>
         </header>
 
 <p class="h1"> TOP 5 ALBUMES </p>
 
     <main>
-       
+        <div class="topalbumb">
+            
+       </div>
    
-    <ul class="TOPS" uk-accordion>
-        <li class="uk-open">
-            <a class="uk-accordion-title" href="#">TOP 1</a>
-             <div class="uk-accordion-content">
-                    <div class="topplaylist">
-                         <section class="playlist">
-                                 <img class="imgalbum" src="j-balvin-album.jpg" alt="" class="artistas"> 
-                         </section>
-                         <article class="album"> 
-                                <ul class="album">
-                                      <li>   COLORES  </li> 
-                                      <li>  Artista: J Balvin</li>
-                                      <li>  + 200.000 reproducciones semanales</li>
-                                      <li class="download">  <button class="boton" type="button" onclick="UIkit.notification({message: 'Descarga en proceso'} )">Download Album <a href="" uk-icon="download"></a></button></li>
-                                </ul>
-                         </article>
-                    </div>
-             </div>
-        </li>
-
-        <li>
-            <a class="uk-accordion-title" href="#">TOP 2</a>
-            <div class="uk-accordion-content">
-                <div class="topplaylist">
-                    <section class="playlist">
-                            <img class="imgalbum" src="topalbumdualipa.jpeg" alt="" class="artistas"> 
-                    </section>
-                    <article class="album"> 
-                           <ul class="album">
-                                 <li>   FUTURE NOSTALGIA   </li> 
-                                 <li>  Artista: Dua Lipa</li>
-                                 <li>  + 182.000 reproducciones semanales</li>
-                                 <li class="download">  <button class="boton" type="button" onclick="UIkit.notification({message: 'Descarga en proceso'} )">Download Album <a href="" uk-icon="download"></a></button></li>
-                           </ul>
-                    </article>
-               </div>
-            </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">TOP 3</a>
-            <div class="uk-accordion-content">
-                <div class="topplaylist">
-                    <section class="playlist">
-                            <img class="imgalbum" src="topalbumbd.jpg" alt="" class="artistas"> 
-                    </section>
-                    <article class="album"> 
-                           <ul class="album">
-                                 <li>  YHLQMDLG  </li> 
-                                 <li>  Artista: Bad Bunny</li>
-                                 <li>  + 160.000 reproducciones semanales</li>
-                                 <li class="download">  <button class="boton" type="button" onclick="UIkit.notification({message: 'Descarga en proceso'} )">Download Album <a href="" uk-icon="download"></a></button></li>
-                           </ul>
-                    </article>
-               </div>
-            </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">TOP 4</a>
-            <div class="uk-accordion-content">
-                <div class="topplaylist">
-                    <section class="playlist">
-                            <img class="imgalbum" src="topalbumJB.jpeg" alt="" class="artistas"> 
-                    </section>
-                    <article class="album"> 
-                           <ul class="album">
-                                 <li>   CHANGES </li> 
-                                 <li>  Artista: J Bieber</li>
-                                 <li>  + 142.000 reproducciones semanales</li>
-                                 <li class="download">  <button class="boton" type="button" onclick="UIkit.notification({message: 'Descarga en proceso'} )">Download Album <a href="" uk-icon="download"></a></button></li>
-                           </ul>
-                    </article>
-               </div>
-            </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">TOP 5</a>
-            <div class="uk-accordion-content">
-                <div class="topplaylist">
-                    <section class="playlist">
-                            <img class="imgalbum" src="topalbumRB.jpeg" alt="" class="artistas"> 
-                    </section>
-                    <article class="album"> 
-                           <ul class="album">
-                                 <li> HAPPY BIRTHDAY FLAKKO </li> 
-                                 <li>  Artista: Rels B</li>
-                                 <li>  + 100.000 reproducciones semanales</li>
-                                 <li class="download">  <button class="boton" type="button" onclick="UIkit.notification({message: 'Descarga en proceso'} )">Download Album <a href="" uk-icon="download"></a></button></li>
-                           </ul>
-                    </article>
-               </div>
-            </div>
-        </li>
-    </ul>
     
-
  </main>
-
-   <footer>
-            <section>
-                   <div class="foot1">
-                     <ul class="footer">
-                       <li>Martina Bellsola</li>
-                       <li>Alejo Cassera</li>
-                       <li>Sophi Kim</li>
-                     </ul>
-                   </div>
-                <div class="foot2">
-                  <img src="Deezer-Logo_neu_qu.jpg" alt="" class="deezerlogo">
-                </div>
-           </section>  
-        </footer>
-    
+ <footer>
+    <nav>
+           <div class="foot1">
+             <ul class="footer">
+               <li>Martina Bellsola</li>
+               <li>Alejo Cassera</li>
+               <li>Sophi Kim</li>
+             </ul>
+             <div class="RedesSociales">
+             <ul class="Redes">
+              <li><a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram-square"></i> </a></li>
+              <li><a href="https://www.whatsapp.com/?lang=es"><i class="fab fa-whatsapp-square"></i></i></a></li>
+              <li><a href="https://es-la.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/login?lang=es"><i class="fab fa-twitter-square"></i></a></li>
+             </ul>
+            </div>
+           </div>
+           
+        <div class="foot2">
+          <img src="../img/Deezer-Logo_neu_qu.jpg" alt="" class="deezerlogo">
+        </div>
+      </nav>
+</footer>
+   
 </body>
 </html> 
 
