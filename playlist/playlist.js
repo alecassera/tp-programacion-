@@ -4,23 +4,29 @@ if(localStorage.getItem(cancionesFavoritas) != null) {
 
   let cancionesFavoritas = localStorage.getItem("cancionesFavoritas").split(",")
 }
-for (let i = 0 ; i < cancionesFavoritas.length; i)
+for (let i = 0 ; i < cancionesFavoritas.length; i++) {
+  this.fetch("https://cors-anywhere.herokuapp.com/ https://api.deezer.com/")
+  .then(
 
-.then 
-    (function (response){
-      return response.json()
+    function(respuesta) {
+      return respuesta.json();
     }
-)
-
+  )
 .then(
-    function(resultado){
-         let playlist = resultado.data;
+  function(resultado) {
+    let laCancion = resultado.data;
+    let img = laCancion.images.original.url;
+    let title = laCancion.title;
+    let id = laCancion.id;
+    let htmlNuevaCancion = ''
 
-         console.log (playlist);
- 
-        let 
+  
+  }
+)
+}
+else {
+  alert("Perdón, no encontramos canciones favoritas")
+}
 
- 
-iframe = "<iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=700&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=954848452&app_id=1" width="700" height="240"></iframe>"
 
 })

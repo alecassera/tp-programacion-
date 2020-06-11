@@ -29,6 +29,16 @@ div.prueba {
         color: black;
         margin-left: 5%;
 }
+button.favorita {
+    background-image: url(../img/fondo\ gris\ difuminado.jpg);
+    border-radius: 500px;
+    border-width: 0px;
+}
+button.reproducir { 
+    background-image: url(../img/fondo\ gris\ difuminado.jpg);
+    border-radius: 500px;
+    border-width: 0px;
+}
 
 img.logo{
     width: 12%;
