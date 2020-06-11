@@ -16,11 +16,31 @@ window.addEventListener ('load', function(){
 
        let Carrousel = DecoArtistas.picture
 
-       let NuevoCarrousel = "<li><img height='350px' width='350px' src=" + Carrousel + "><div class='uk-position-center uk-panel'></div></li>"
+       let NuevoCarrousel = "<li><img height='350px' width='350px' class='imagenesDelCarrousel' src=" + Carrousel + "><div class='uk-position-center uk-panel'></div></li>"
 
        document.querySelector (".HOLA").innerHTML += NuevoCarrousel
    }
+   
+   // Evento
 
+   for (let index = 0; index < 8; index++) {
+      const Informacion = ArtistasCorrousel [index];
+    
+    let Nombresinfo = document.querySelectorAll (".imagenesDelCarrousel")[index]
+      
+    Nombresinfo.addEventListener ( "click" , function (){               
+   
+        let NombreDeArtistasCarrousel = Informacion.name
+        UIkit.notification({
+          message: NombreDeArtistasCarrousel ,
+          status: 'primary',
+          pos: 'top-center',
+          timeout: 3000
+      });
+   
+      })
+}
+   //
   })
 
     fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart") //url para top 5 artistas 

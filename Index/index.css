@@ -60,13 +60,20 @@ display: none;
 a.flechitaDerecha{
 position: absolute;
 left: 0px;
-top: 350px;
+top: 450px;
 }
 
 a.flechitaIzquierda{
     position: absolute;
     right: 0px;
-    top: 350px;
+    top: 450px;
+}
+
+.ArtistasCrrousel{
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    display: none;
 }
 
 main div.fotoBB{
@@ -289,11 +296,19 @@ ul.navegacion li{
     width: 10%;
 }
 
-    
+.ArtistasCrrousel{
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    display: block;
+    margin-left: 1%;
+    font-family: 'quicksand'
+}
+
 div.uk-position-relativeuk-visible-toggleuk-light{
     display: block;
-    margin-top: 80px;
-    margin-bottom: 45px;
+    margin-top: 0px;
+    margin-bottom: 15%;
 }
 img.artista{
     border-radius: 250px;
@@ -325,10 +340,10 @@ p.otros{
 ol.listadeotros{
     padding-left: 7px;
  }
- footer nav{
+footer nav{
      margin-top:35px ;
  }
- div.foot2 img.deezerlogo{
+div.foot2 img.deezerlogo{
     position: absolute;
     right: 80px;
     width: 25%;
@@ -336,6 +351,7 @@ ol.listadeotros{
     padding-top: 3%;
 }
 
+}
 
 @media(min-width:1024px){
 
@@ -376,14 +392,26 @@ ul.navegacion li{
 .Boton{
     width: 10%;
 }
+
+.ArtistasCrrousel{
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 1%;
+    display: block;
+    margin-left: 1%;
+    font-family: 'quicksand'
+} 
+
 div.uk-position-relativeuk-visible-toggleuk-light{
     display: block;
+    margin-bottom: 0%;
+    margin-top: 0%;
 }
 a.flechitaDerecha{
-    top: 400px;
+    top: 500px;
 }
 a.flechitaIzquierda{
-    top: 400px;
+    top: 500px;
 }
 main {
     display: grid;
