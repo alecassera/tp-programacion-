@@ -15,33 +15,28 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
     function(informacion) {
         
       let artistas = informacion          
- 
-     console.log(artistas)
+        console.log(artistas)
 
 
       let nombre = artistas.name          
-
-      console.log(nombre)
+          console.log(nombre)
 
       let imagen = artistas.picture
-
-      console.log(imagen)
+           console.log(imagen)
 
       let fans = artistas.nb_fan
-
-      console.log = (fans)
+          console.log = (fans)
       
 
      let artistasHTML = `
          <section class= "playlist">
                     <img src="` + imagen + `">
                      
-          </section>
+         </section>
             <li>
-                <p>` + nombre + `<p>
+                     <p>` + nombre + `<p>
            </li>
-           
-                       `
+                   `
       document.querySelector(".topplaylist").innerHTML += artistasHTML
     
   })

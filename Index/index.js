@@ -87,8 +87,10 @@ window.addEventListener ('load', function(){
             const TopAlbumes = Albumes [index];
             
             let NombresAlbumes = TopAlbumes.title
+
+            let idAlbum = TopAlbumes.id
             
-            let NuevaListaAlbumes = "<li><a href='../albumes/detail.html'>" + NombresAlbumes +"</a></li>"
+            let NuevaListaAlbumes =  `<li><a href="../albumes/detail.html?idAlbum= ` + idAlbum + `" > ` + NombresAlbumes +"</a></li>"
   
             document.querySelector ("ol.album").innerHTML += NuevaListaAlbumes
             document.querySelector ("div.albumes2 ol.album").innerHTML += NuevaListaAlbumes

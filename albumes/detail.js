@@ -1,6 +1,12 @@
 window.addEventListener("load", function() {
 
-    fetch( " https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/27")
+
+  let queryString = new URLSearchParams(location.search);
+
+  let idArtistas = queryString.get("idAlbum");
+
+
+    fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idAlbum)
          
       .then(
         function(respuesta){
