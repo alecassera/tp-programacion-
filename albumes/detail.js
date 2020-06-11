@@ -35,10 +35,10 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + idAl
   </section>
   <article class="album"> 
          <ul class="album">
-               <li>"  ` + nombreAlbum + ` " </li> 
-               <li>" ` + nombreArtista + `" </li>
-               <li> </li>
-               <li >  </li>
+               <li> ` + nombreAlbum + `</li> 
+               <li> ` + nombreArtista + `</li>
+               <li></li>
+               <li></li>
          </ul>
   </article>
      `
