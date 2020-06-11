@@ -1,22 +1,11 @@
 body{
-    background-image: url(fondo\ gris\ difuminado.jpg);
+    background-image: url(../img/fondo\ gris\ difuminado.jpg);
     background-repeat: no-repeat;
-    margin: 0 auto;
+  
     background-size: cover;
     
 }
 
-p.h1{
-    text-align: center;
-    background-color: gray;
-    width: 75%;
-    margin-bottom: 10%;
-    margin-top: 8%;
-    font-family: "quicksand";
-    margin-left: 12%;
-    color: black;
-    font-size: 25px;
-}
 
 header{
     background-color:gray;
@@ -34,36 +23,32 @@ div.uk-margin {
     margin-top: 30px;
 }
 
-
-
-
-
-img.logo{
-    width: 12%;
-    border-radius: 70px;
-    margin: 0 auto;
-    display: block;
-    border: 2px solid black;
-    
-}
-
-input.uk-search-input{
-    width: 96%;
-    margin-left: 2%;
+.BUSCADOR{
+    width: 70%;
+    margin-left: 10%;
     padding-bottom: 1%;
     margin-bottom: 1%;
     }
 
+
+img.logo{
+    width: 12%;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+}
+
 ul.navegacion{
 
     display: grid;
-    grid-template-columns: 20% 20% 20% ;
+    grid-template-columns: 20% 20% 20%;
     justify-content: space-between;
     padding-left: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 2%;
 }
 
 ul.navegacion li{
@@ -110,7 +95,7 @@ div {
       margin: 0 auto;
 }
 
-div.topplaylist{
+div.topalbum{
     display: grid;
     grid-template-columns: 40% 40%
     
@@ -142,23 +127,10 @@ img.imgalbum {
     border-radius: 150%;
 }
  
-li.download {
-    text-decoration: underline blue;
-    color: blue;
-}
-button.boton { 
-    text-decoration: underline blue;
-    color: blue;
-    font-size: 13px;
-    background-color: rgba(180, 188, 189, 0.1);
-    border: 1px blue;
-}
-
-
 footer{
     padding: 20px;
 }
-footer section{
+footer nav{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-around;
@@ -182,12 +154,22 @@ padding-left: 0px;
 color: black;
 }
 
+div.RedesSociales ul{
+display: grid;
+grid-template-columns: 2% 2% 2% 2%;
+column-gap:5% ;
+}
+
+ul.Redes li {
+    list-style-type: none;
+    gap: 2%;
+}
+
 div.foot2 img.deezerlogo{
     width: 140px;
     padding: 5px;
-    padding-top: 25%; 
+    padding-top: 25px;
 }
-
 
 @media(min-width: 768px) {
 

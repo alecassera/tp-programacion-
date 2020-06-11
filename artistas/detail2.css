@@ -10,6 +10,14 @@ header{
     background-color:gray;
 }
 
+
+.BUSCADOR{
+    width: 70%;
+    margin-left: 10%;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+    }
+
 div.prueba{
     padding-top: 10px;
 }
@@ -19,7 +27,7 @@ div.prueba{
 }
 img.logo{
     width: 12%;
-    border-radius: 70px;
+    border-radius: 50px;
     margin: 0 auto;
     display: block;
     border: 2px solid black;
@@ -33,9 +41,10 @@ ul.navegacion{
     padding-left: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 2%;
 }
+
 
 ul.navegacion li{
     list-style-type: none;
@@ -137,10 +146,11 @@ button.boton {
 }
 
 
+
 footer{
     padding: 20px;
 }
-footer section{
+footer nav{
     display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-around;
@@ -164,15 +174,23 @@ padding-left: 0px;
 color: black;
 }
 
+div.RedesSociales ul{
+display: grid;
+grid-template-columns: 2% 2% 2% 2%;
+column-gap:5% ;
+}
+
+ul.Redes li {
+    list-style-type: none;
+    gap: 2%;
+}
+
 div.foot2 img.deezerlogo{
     width: 140px;
     padding: 5px;
-    padding-top: 25%; 
+    padding-top: 25px;
 }
 
-a.info {
-    text-decoration: underline blue;
-}
 
 @media(min-width: 768px) {
     article.ipad{
