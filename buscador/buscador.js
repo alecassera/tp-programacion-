@@ -33,7 +33,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + l
         for (let index = 0; index < CancionesBuscadas.length; index++) {
             const cadaCancion = CancionesBuscadas[index];
 
-            let img = cadaCancion.album.cover;
+            let img = cadaCancion.album.cover_medium;
             let title = cadaCancion.title;
             let id = cadaCancion.id;
 

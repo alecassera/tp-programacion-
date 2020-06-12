@@ -14,7 +14,7 @@ window.addEventListener ('load', function(){
         let Geneross = information; 
         console.log(information);
 
-        let FotoDelGenero = Geneross.picture
+        let FotoDelGenero = Geneross.picture_xl
         console.log(Geneross.picture)
         let NombreDelGenero = Geneross.name
         let NuevosGeneros =  '<div class="Detalle"><img class="FotoDetalleGeneros" src="' + FotoDelGenero + '" alt=""></div><div class="Detalle"><p class="NombreDelGenero">' + NombreDelGenero + '</p></div>'

@@ -13,7 +13,7 @@ window.addEventListener ('load', function(){
       for (let index = 1; index < 28; index++) {
         const Generos = Geneross [index];
  
-        let FotoDelGenero = Generos.picture
+        let FotoDelGenero = Generos.picture_xl
         let NombreDelGenero = Generos.name
  
           console.log(FotoDelGenero)
