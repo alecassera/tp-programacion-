@@ -21,7 +21,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
       let nombre = artistas.name          
           console.log(nombre)
 
-      let imagen = artistas.picture
+      let imagen = artistas.picture_medium
            console.log(imagen)
 
       let fans = artistas.nb_fan
@@ -77,10 +77,10 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
         <article>
         <ol>
             <li>
-                     <p>` + nombre + `<p>
+                     <p> Nombre: <br>` + nombre + `<p>
            </li>
            <li>
-                  <p>  `+ fans + ` </p>
+                  <p> Numero de fans: `+ fans + ` </p>
            </li>
            </ol>
         <article/>
