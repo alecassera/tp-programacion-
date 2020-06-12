@@ -145,16 +145,16 @@ footer nav{
 }
 
 ul.footer{
-  padding: 5px;
-  margin-top: 15px;
-  margin-left: 30px;
+    padding: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
 }
 
 ul.footer li{
-list-style-type: none;
-padding: 5px;
-padding-left: 0px;
-color: black;
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 0px;
+    color: black;
 }
 
 div.RedesSociales ul{
@@ -163,16 +163,32 @@ div.RedesSociales ul{
     column-gap:5% ;
     }
     
-    ul.Redes li {
-        list-style-type: none;
-        gap: 2%;
-    }
+ul.Redes li {
+    list-style-type: none;
+    gap: 2%;
+}
     
-    div.foot2 img.deezerlogo{
-        width: 140px;
-        padding: 5px;
-        padding-top: 25px;
-    }
+div.foot2 img.deezerlogo{
+    width: 140px;
+    padding: 5px;
+    padding-top: 25px;
+}
+
+img.imagen {
+    margin-left: 30%;
+    border-radius: 60px;
+}
+ul.info {
+    color: black;
+    margin-left: 15%;
+    margin-top: 10%;
+    text-decoration: none;
+    font-weight: bold;
+}
+p.info {
+    border-bottom: black 1px solid;
+
+}
 
 @media(min-width: 768px) {
 
@@ -230,8 +246,21 @@ div.foot2 img.deezerlogo{
     padding-top: 3%;
    }
 
- 
+img.imagen {
+    margin-left: 35%;
+    border-radius: 60%;
+    width: 30%;
+}
+ul.info {
+    color: black;
+    margin-left: 30%;
+    margin-top: 5%;
+    list-style-type: none;
+}
+p.info {
+    border-bottom: black 1px solid;
 
+}
  @media(min-width:1024px){
  
 nav.ipad{

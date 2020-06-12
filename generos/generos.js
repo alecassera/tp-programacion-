@@ -10,15 +10,17 @@ window.addEventListener ('load', function(){
       let Geneross = information.data; 
       console.log( information);
     
-      for (let index = 0; index < 28; index++) {
+      for (let index = 1; index < 28; index++) {
         const Generos = Geneross [index];
  
-        let FotoDelGenero = Generos.picture
+        let FotoDelGenero = Generos.picture_xl
         let NombreDelGenero = Generos.name
  
           console.log(FotoDelGenero)
 
-        let NuevosGeneros = '<div><h2><a class="HiperDeGeneros" href="../albumes/detail.html">' + NombreDelGenero + '</a></h2><img class="fotogeneros" src="' + FotoDelGenero +'" alt=""></div>'
+        let GenerosDetallePrueba = Generos.id
+
+        let NuevosGeneros = '<div><h2><a class="HiperDeGeneros" href="generosDetalle.html?idGeneros='+ GenerosDetallePrueba +'">' + NombreDelGenero + '</a></h2><img class="fotogeneros" src="' + FotoDelGenero +'" alt=""></div>'
  
         document.querySelector ("div.generos").innerHTML += NuevosGeneros
         }

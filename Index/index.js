@@ -14,7 +14,7 @@ window.addEventListener ('load', function(){
    for (let index = 0; index < 8; index++) {
        const DecoArtistas = ArtistasCorrousel[index];
 
-       let Carrousel = DecoArtistas.picture
+       let Carrousel = DecoArtistas.picture_xl
 
        let NuevoCarrousel = "<li><img height='350px' width='350px' class='imagenesDelCarrousel' src=" + Carrousel + "><div class='uk-position-center uk-panel'></div></li>"
 
@@ -57,7 +57,7 @@ window.addEventListener ('load', function(){
         for (let index = 0; index < 1; index++) {
             const TopArtistas1 = Artistas[index];
 
-            let Foto = TopArtistas1.picture
+            let Foto = TopArtistas1.picture_xl
 
             let NuevaFotoArtistas = "<img class='artista' src=" + Foto + "></li>"
 
@@ -95,7 +95,7 @@ window.addEventListener ('load', function(){
         for (let index = 0; index < 1; index++) {
             const TopAlbumes = Albumes[index];
 
-            let FotoAlbum = TopAlbumes.cover
+            let FotoAlbum = TopAlbumes.cover_xl
 
             let NuevaFotoAlbum = "<img class='album' src=" + FotoAlbum + "></li>"
 
@@ -131,7 +131,7 @@ window.addEventListener ('load', function(){
         for (let index = 0; index < 1; index++) {
             const TopCanciones = Canciones [index];
 
-            let FotoCanciones = TopCanciones.album.cover
+            let FotoCanciones = TopCanciones.album.cover_xl
 
             let NuevaFotoCanciones = "<img class='otro' src=" + FotoCanciones + "></li>"
 
