@@ -49,13 +49,13 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
         for (let index = 0; index < 5 ; index++) {
           const tArtistas  = tracklistArtistas [index];
 
-     let nombreTArtistas = tArtistas.tittle 
+     let nombreTArtistas = tArtistas.title 
            console.log (nombreTArtistas)
 
          let tArtistasHTML =   `
           <section>
          <li>
-         <p>` + nombreTArtistas + `<p>
+         <p>"` + nombreTArtistas + `"<p>
         </li>
         </section>
                `
@@ -84,8 +84,18 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
         <article/>
                    `
       document.querySelector(".topplaylist").innerHTML += artistasHTML
+
+
+
+
+
+       
     
   })
+
+
+
+
   
 })
 
