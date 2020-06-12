@@ -40,7 +40,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + l
             let htmlCancionesBuscadas = `
                 <li class="CancionesBusacadass">
                     <a href="resultados.html?buscador=` + id + `">
-                        <h2><a class="TitulosBuscador" href="../albumes/detail.html"> ` + title + `</h2>
+                        <h2><a class="TitulosBuscador" href="../canciones/detail3.html?idCanciones= `+id+`"> ` + title + `</h2>
                     </a>
                     <img src="` + img + `">
                 </li>
