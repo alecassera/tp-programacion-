@@ -19,7 +19,36 @@ header {
 div.prueba {
     padding-top: 10px;
 }
+img.logo{
+    width: 12%;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid black;
+}
+ul.navegacion{
 
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+    justify-content: space-between;
+    padding-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 3px;
+    margin-left: 2%;
+}
+ul.navegacion li{
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-family: 'quicksand';
+    font-size: 100%;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+}
  ul.cancionesfav li {
         font-family: "QUICKSAND";
         list-style: none;
@@ -40,30 +69,7 @@ button.reproducir {
     border-width: 0px;
 }
 
-img.logo{
-    width: 12%;
-    border-radius: 50px;
-    margin: 0 auto;
-    display: block;
-    border: 2px solid black;
-}
 
-ul.navegacion{
-
-    display: grid;
-    grid-template-columns: 20% 20% 20%;
-    justify-content: space-between;
-    padding-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-right: 3px;
-    margin-left: 2%;
-}
-
- ul li a {
-    color: black;
-    text-decoration: none;
-}
 .BUSCADOR{
     width: 70%;
     margin-left: 10%;
@@ -71,13 +77,6 @@ ul.navegacion{
     margin-bottom: 1%;
     }
 
-ul.navegacion li{
-    list-style-type: none;
-    text-align: center;
-    margin-bottom: 5px;
-    padding: 10px;
-    font-family: 'quicksand';
-}
 
 input.uk-search-input{
     width: 96%;
@@ -146,6 +145,13 @@ ul.Redes li {
     list-style-type: none;
     gap: 2%;
     }
+
+ i.fas:focus {
+     outline: none;
+ }
+button.favorita:focus {
+    outline: none;
+}
 
 @media(min-width: 768px){
 

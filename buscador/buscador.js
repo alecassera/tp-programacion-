@@ -49,8 +49,10 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/search?q=" + l
             document.querySelector(".resultados").innerHTML += htmlCancionesBuscadas
         }
         
-        
+        document.querySelector( ".Spinneer").style.display= "none"
     }
 )
+
+
 
 })
