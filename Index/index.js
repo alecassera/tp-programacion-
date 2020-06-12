@@ -124,7 +124,9 @@ window.addEventListener ('load', function(){
             
             let NombresCanciones = TopCanciones.title
             
-            let NuevaListaCanciones = "<li><a href='../canciones/detail3.html'>" + NombresCanciones +"</a></li>"
+            let idCanciones = TopCanciones.id
+            
+            let NuevaListaCanciones = `<li><a href="../canciones/detail3.html?idCanciones= ` + idCanciones + `" > ` + NombresCanciones +"</a></li>"
   
             document.querySelector ("ol.listadeotros").innerHTML += NuevaListaCanciones
             document.querySelector ("div.otro2 ol.listadeotros").innerHTML += NuevaListaCanciones
