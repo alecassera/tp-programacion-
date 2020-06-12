@@ -27,6 +27,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + idAl
 
    let nombreArtista = informacion.artist.name
           console.log (nombreArtista)   
+
+  let fechaLanzamiento = topAlbum.release_date
+         console.log (fechaLanzamiento)
           
           
         let albumHTML =  `
@@ -37,7 +40,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + idAl
          <ul class="album">
                <li> ` + nombreAlbum + `</li> 
                <li> ` + nombreArtista + `</li>
-               <li></li>
+               <li> `+ fechaLanzamiento + `</li>
                <li></li>
          </ul>
   </article>
