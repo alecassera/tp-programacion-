@@ -72,7 +72,7 @@ window.addEventListener ('load', function(){
             
             let idArtista = TopArtistas.id
 
-            let NuevaListaArtistas =  `<li><a href="../artistas/detail2.html?idArtista= `+ idArtista + `"> ` + NombresArtistas + `</a></li>`
+            let NuevaListaArtistas =  `<li><a href="../artistas/detail2.html?idArtista=`+ idArtista + `"> ` + NombresArtistas + `</a></li>`
             
             document.querySelector ("ol.artistas").innerHTML += NuevaListaArtistas
             document.querySelector ("div.fotoBB2 ol.artistas").innerHTML += NuevaListaArtistas
@@ -110,7 +110,7 @@ window.addEventListener ('load', function(){
 
             let idAlbum = TopAlbumes.id
             
-            let NuevaListaAlbumes =  `<li><a href="../albumes/detail.html?idAlbum= ` + idAlbum + `" > ` + NombresAlbumes +"</a></li>"
+            let NuevaListaAlbumes =  `<li><a href="../albumes/detail.html?idAlbum=` + idAlbum + `" > ` + NombresAlbumes +"</a></li>"
   
             document.querySelector ("ol.album").innerHTML += NuevaListaAlbumes
             document.querySelector ("div.albumes2 ol.album").innerHTML += NuevaListaAlbumes
