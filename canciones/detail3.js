@@ -13,13 +13,46 @@ window.addEventListener("load", function(){
 
     .then(
         function(informacion) {
+
             let canciones = informacion
             console.log(canciones)
         
-            let nombre = canciones.title
-            console.log(nombre)
+            let nombrecancion = canciones.title
+            console.log(nombrecancion)
 
-            let imagen = canciones.picture
-            }
-        )
+            let imagen = canciones.artist.picture_big
+            console.log(imagen)
+
+            let nombreartista = canciones.artist.name
+            console.log(nombreartista)
+
+            let nombrealbum = canciones.album.title
+            console.log(nombrealbum)
+
+            let duracion = canciones.duration
+            console.log(duracion)
+
+            let cancionesHTML = `
+            <section>
+                <img class="imagen" src= "`+ imagen + `"> 
+            </section>
+            <article>
+            <ul class="info">
+                <li>
+                <p class="info">`+ "Canción:" + "  " + nombrecancion + `</p>
+                </li>
+                <li>
+                <p class="info">`+ "Artista:" + "  " + nombreartista + `</p>
+                </li><li>
+                <p class="info">`+ "Album:" + "  " + nombrealbum + `</p>
+                </li>
+                <li>
+                <p class="info">`+ "Duración:" + "  " + (duracion/60).toFixed(2) + " " + "minutos" + `</p>
+                </li>
+            </ul>
+            </article>
+                        `
+            document.querySelector(".topcanciones").innerHTML += cancionesHTML
+     
+     })
 }) 
