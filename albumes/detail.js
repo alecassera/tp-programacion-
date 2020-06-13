@@ -1,7 +1,6 @@
 window.addEventListener("load", function() {
-
-
-  let queryString = new URLSearchParams(location.search);
+     
+ let queryString = new URLSearchParams(location.search);
 
   let idAlbum = queryString.get("idAlbum");
 
@@ -41,7 +40,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/album/" + idAl
   <article class="album"> 
          <ul class="album">
                <li> Nombre del álbum: ` + nombreAlbum + `</li> 
-               <li> Artista: <a href="../artistas/detail2.html?idCanciones=`+ idHiperArtista + `">    ` + nombreArtista + `</a> </li>
+               <li> Artista: <a href="../artistas/detail2.html?idArtista=`+ idHiperArtista + `">` + nombreArtista + `</a> </li>
                <li> Fecha de lanzamiento:   `+ fechaLanzamiento + `</li>
                <li></li>
          </ul>
