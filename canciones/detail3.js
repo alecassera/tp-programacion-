@@ -36,20 +36,14 @@ window.addEventListener("load", function(){
             <section>
                 <img class="imagen" src= "`+ imagen + `"> 
             </section>
+
             <article>
-            <ul class="info">
-                <li>
-                <p class="info">`+ "Canción:" + "  " + nombrecancion + `</p>
-                </li>
-                <li>
-                <p class="info">`+ "Artista:" + "  " + nombreartista + `</p>
-                </li><li>
-                <p class="info">`+ "Album:" + "  " + nombrealbum + `</p>
-                </li>
-                <li>
-                <p class="info">`+ "Duración:" + "  " + (duracion/60).toFixed(2) + " " + "minutos" + `</p>
-                </li>
-            </ul>
+
+                <ul class="cancion">`+ "Canción:" + "  " + nombrecancion + `</ul>
+                <ul class="info">`+ "Artista:" + "  " + nombreartista + `</ul>
+                <ul class="info">`+ "Album:" + "  " + nombrealbum + `</ul>
+                <ul class="info">`+ "Duración:" + "  " + (duracion/60).toFixed(2) + " " + "minutos" + `</ul>
+            
             </article>
                         `
             document.querySelector(".topcanciones").innerHTML += cancionesHTML
