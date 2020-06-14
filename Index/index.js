@@ -21,7 +21,7 @@ window.addEventListener ('load', function(){
        document.querySelector (".HOLA").innerHTML += NuevoCarrousel
    }
    
-   // Evento
+   // Evento para carrousel
 
    for (let index = 0; index < 8; index++) {
       const Informacion = ArtistasCorrousel [index];

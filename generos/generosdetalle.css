@@ -66,6 +66,27 @@ ul li a{
     margin-top: 6%;
     text-align: center;
     margin-bottom: 0%;
+    border-bottom: none;
+}
+
+.ListadoArtistas{
+margin-left: 40%;
+}
+
+li{
+font-family: 'quicksand';
+padding: 1%
+}
+
+.artistas{
+    font-family: 'quicksand';
+    text-align: center;
+    border-bottom: thin solid black;
+    padding-bottom: 2%;}
+
+.Hipervinculo{
+color: black;  
+text-decoration: none;
 }
 
 footer{
@@ -162,7 +183,17 @@ margin-bottom: 10%;
     
  .NombreDelGenero{
 margin-top: 27%;
+border-bottom: thin solid black;
     }
+
+.ListadoArtistas{
+margin-left: 68%;
+margin-top: -15%;
+    }    
+
+.artistas{
+display: none;
+}
 
 footer nav{
 margin-top:35px ;
@@ -214,8 +245,20 @@ padding-top: 3%;
         width: 10%;
     }
 .NombreDelGenero{
-    margin-top: 27%;
+    margin-top: 20%;
+    border-bottom: thin solid black;
 }
+
+.ListadoArtistas{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    margin-left: 55%;
+    margin-bottom: 5%;
+}
+.artistas{
+    display: none;
+    }
 
     div.foot2 img.deezerlogo {
         width: 30%;
