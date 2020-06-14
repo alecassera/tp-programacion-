@@ -34,10 +34,11 @@ window.addEventListener ('load', function(){
       console.log(resultado)
       for (let index = 0; index < 10; index++) {
         let nombreArtistas = resultado.data[index].name;
+        let ID = resultado.data[index].id;
         
-        let NuevoHtml = "<li >" + nombreArtistas + "</li> "
-        document.querySelector( " .ListadoArtistas " ). innerHTML += NuevoHtml
-
+        let NuevoHtml = "<li><a class='Hipervinculo' href='../artistas/detail2.html?idArtista= " + ID + "'> " + nombreArtistas + "</a></li> "
+        document.querySelector( ".ListadoArtistas" ). innerHTML += NuevoHtml
       }
+
       })
 })

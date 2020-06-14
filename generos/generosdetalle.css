@@ -66,6 +66,7 @@ ul li a{
     margin-top: 6%;
     text-align: center;
     margin-bottom: 0%;
+    border-bottom: none;
 }
 
 .ListadoArtistas{
@@ -74,6 +75,7 @@ margin-left: 40%;
 
 li{
 font-family: 'quicksand';
+padding: 1%
 }
 
 .artistas{
@@ -81,6 +83,11 @@ font-family: 'quicksand';
     text-align: center;
     border-bottom: thin solid black;
     padding-bottom: 2%;}
+
+.Hipervinculo{
+color: black;  
+text-decoration: none;
+}
 
 footer{
     padding: 20px;
@@ -176,6 +183,7 @@ margin-bottom: 10%;
     
  .NombreDelGenero{
 margin-top: 27%;
+border-bottom: thin solid black;
     }
 
 .ListadoArtistas{
@@ -238,6 +246,7 @@ padding-top: 3%;
     }
 .NombreDelGenero{
     margin-top: 20%;
+    border-bottom: thin solid black;
 }
 
 .ListadoArtistas{
