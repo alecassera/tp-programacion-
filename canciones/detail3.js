@@ -32,16 +32,25 @@ window.addEventListener("load", function(){
             let duracion = canciones.duration
             console.log(duracion)
 
+            let idVinculoartista = canciones.artist.id 
+            console.log (idVinculoartista)
+        
+            let idVinculoalbum = canciones.album.id 
+            console.log (idVinculoalbum)
+
             let cancionesHTML = `
             <section>
+                <h1 class= "cancion">`+ nombrecancion + `</h1> 
                 <img class="imagen" src= "`+ imagen + `"> 
+                <p class="button"><button class="favorito" >Añadir a canciones favoritas   <i class="fas fa-heart"></i></button> <button class= "reproducir">Reproducir   <i class="far fa-play-circle"></i></button></p>
+                <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=007FEB&layout=dark&size=medium&type=tracks&id=`+idCanciones+`&app_id=1" width="300" height="300"></iframe>
+            
             </section>
 
             <article>
 
-                <ul class="cancion">`+ "Canción:" + "  " + nombrecancion + `</ul>
-                <ul class="info">`+ "Artista:" + "  " + nombreartista + `</ul>
-                <ul class="info">`+ "Album:" + "  " + nombrealbum + `</ul>
+                <ul class= "info"> Artista: <a class= "vinculo" href="../artistas/detail2.html?idArtista=`+ idVinculoartista + `">` + nombreartista + `</a> </ul>
+                <ul class= "info"> Album: <a class= "vinculo" href="../albumes/detail.html?idAlbum=`+ idVinculoalbum + `">` + nombrealbum+ `</a> </ul>
                 <ul class="info">`+ "Duración:" + "  " + (duracion/60).toFixed(2) + " " + "minutos" + `</ul>
             
             </article>
@@ -49,4 +58,4 @@ window.addEventListener("load", function(){
             document.querySelector(".topcanciones").innerHTML += cancionesHTML
      
      })
-}) 
+})
