@@ -145,21 +145,23 @@ a.vinculo{
 p.button { 
     text-align: center;
     margin-top: 5%;
-    display: grid;
-    grid-template-columns: 50% 40%;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 10%;
+}
+button.botonrep {
+    block-size: 30px;
+    font-size: 20px;
+    font-family: "quicksand";
+    border-radius: 20px;
 
 }
-button.favorito{
-    block-size: 30px;
-    font-size: 10px;
+iframe.reproducir{
+    display: none;
+    padding-left: 37%;
+    width: 25%;
+    padding-bottom: 5%;
 }
-button.reproducir {
-    block-size: 30px;
-    font-size: 10px;
 
-}
 
 @media(min-width: 768px) {
 
@@ -203,31 +205,54 @@ div.foot2 img.deezerlogo{
     padding-top: 3%;
    }
 
-img.imgalbum{
-    width: 70%;
-    margin-left: 25%;
-}
-ul.album{
-    padding-top: 10%;
-}
-
 img.imagen {
     margin-left: 35%;
     border-radius: 60%;
     width: 30%;
 }
 ul.info {
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 5%;
-    margin-right: 23%;
-    padding-left: 10%;
+    margin-right: 33%;
 }
-ul.cancion {
-    margin-left: 30%;
+
+
+h1.cancion {
+    color: black;
+    margin-top: 10%;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "quicksand";
+    text-align: center;
+    border-bottom: 1px solid black ;
+    font-size: 40px;
+}
+
+a.vinculo{
+    margin-top: 10%;
+    color: black;
+    font-family: "quicksand";
+}
+p.button { 
+    text-align: center;
     margin-top: 5%;
-    margin-right: 23%;
-    padding-left: 10%;
+    padding-left: 0%;
+    padding-right: 0%;
 }
+button.botonrep {
+    block-size: 30px;
+    font-size: 20px;
+    font-family: "quicksand";
+    border-radius: 20px;
+}
+iframe.reproducir{
+    display: none;
+    padding-left: 0%;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+    
  @media(min-width:1024px){
  
 nav.ipad{
@@ -281,11 +306,8 @@ div.foot2 img.deezerlogo {
 img.imgalbum{
     width: 60%;
     margin-left: 10%;
-    margin-top: 0%;
-
-   
+    margin-top: 0%;  
 }
-
 
 ul.info {
     color: black;
@@ -295,6 +317,7 @@ ul.info {
     border-bottom: black 2px solid;
     margin-right: 33%;
     padding-left: 9%;
+    margin-top: 5%;
 
 }
 
@@ -307,6 +330,10 @@ h1.cancion {
     font-size: 40px;
     margin-bottom: 1px;
 
+}
+iframe.reproducir{
+    display: none;
+    padding-left: 42%;
 }
 
 }

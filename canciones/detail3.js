@@ -42,8 +42,8 @@ window.addEventListener("load", function(){
             <section>
                 <h1 class= "cancion">`+ nombrecancion + `</h1> 
                 <img class="imagen" src= "`+ imagen + `"> 
-                <p class="button"><button class="favorito" >Añadir a canciones favoritas   <i class="fas fa-heart"></i></button> <button class= "reproducir">Reproducir   <i class="far fa-play-circle"></i></button></p>
-                <iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=007FEB&layout=dark&size=medium&type=tracks&id=`+idCanciones+`&app_id=1" width="300" height="300"></iframe>
+                <p class="button"> <button class= "botonrep">Reproducir canción   <i class="far fa-play-circle"></i></button></p>
+                <iframe class="reproducir"scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=false&width=600&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=`+idCanciones+`&app_id=1" width="600" height="90"></iframe>
             
             </section>
 
@@ -56,6 +56,11 @@ window.addEventListener("load", function(){
             </article>
                         `
             document.querySelector(".topcanciones").innerHTML += cancionesHTML
+
+           
+            document.querySelector(".botonrep").addEventListener ("click", function() {
+                document.querySelector(".reproducir").style.display = "block"
+     })
      
      })
 })
