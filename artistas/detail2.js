@@ -52,12 +52,13 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
      let nombreTArtistas = tArtistas.title 
            console.log (nombreTArtistas)
 
-           let hiperCanciones = respuestaCanciones.id
+           let hiperCanciones = tArtistas.id
+           console.log(hiperCanciones)
 
          let tArtistasHTML =   `
           <section>
          <li>
-         <p>  <a href="../canciones/detail3.html?= `+ hiperCanciones+`"> ` + nombreTArtistas + `</a>  <p>
+         <p>  <a href="../canciones/detail3.html?idCanciones=`+ hiperCanciones+`"> ` + nombreTArtistas + `</a>  </p>
         </li>
         </section>
                `
