@@ -85,7 +85,7 @@ main {margin-top: 40px;
 
 div {
       justify-content: space-around;
-      margin: 0 auto;
+      
 }
 
 div.topplaylist{
@@ -206,8 +206,9 @@ div.foot2 img.deezerlogo{
     div.foot2 img.deezerlogo{
     position: absolute;
     right: 80px;
-    padding: 5%;
+    padding: 1%;
     padding-top: 3%;
+    padding-right: 3%;
    }
 
 
