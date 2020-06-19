@@ -52,51 +52,100 @@ ul.navegacion li{
 }
 
 
-ul li a{
-    color: black;
-    text-decoration: none;
-}
-
-
 
 li a{
     color: black;
 }
 
 
-p.h1{
-    text-align: center;
-    background-color: gray;
-    width: 75%;
-    margin-bottom: 10%;
-    margin-top: 8%;
-    font-family: "quicksand";
-    margin-left: 12%;
-    color: black;
-    font-size: 25px;
-}
- 
-
-main {margin-top: 40px;
-    margin-left: 20px;
-
-}
 
 
-div {
-      justify-content: space-around;
-      margin: 0 auto;
-}
+
+
+
 
 div.topplaylist{
     display: grid;
-    grid-template-columns: 40% 40%
+    grid-template-columns: 100%;
     
+    
+}
+
+div.emoji {
+    display: grid;
+    grid-template-columns: 5% 85% 5%;
+    margin-top: 15%;
+}
+
+
+
+
+h1.titulo {
+
+    color: black;
+    margin-top: 5%;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "quicksand";
+    text-align: center;
+    border-bottom: 2px solid black ;
+    font-size: 40px;
+
+}
+
+ img.imgArtista {
+    margin-left: 25%;
+    border-radius: 60%;
+    width: 50%;
+    margin-top: 2%;
+
+ }
+
+p.fans {
+
+    color: black;
+    margin-left: 25%;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "quicksand";
+    border-bottom: black 1px solid;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 20px;
+}
+p.emoj {
+    margin-bottom: auto;
+    text-align: center;
+    
+}
+
+ li {
+    list-style-type: none;
+    
+}
+p {
+    text-align: center;
+}
+ 
+ol {
+ margin: 0 auto;
+ padding-left: 0%;
+}
+
+div {
+      justify-content: space-around;
+      
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    background-color: gray;
     
 }
 
 ul li.album{
-    text-emphasis: none;
+    
     text-decoration: none;
     
     padding-left: 0px;
@@ -114,12 +163,15 @@ ul.album {
     padding-top: 0%;
 }
 
-
-
-img.imgalbum {
-    border-radius: 150%;
+p a {
+    color: black;
+    font-weight: bolder;
+    font-family: "quicksand";
+    text-align: center;
+    
 }
- 
+
+
 
 
 
@@ -197,7 +249,62 @@ div.foot2 img.deezerlogo{
             width: 10%;
         }
 
+
+
+
+
+ img.imgArtista {
+    margin-left: 35%;
+    border-radius: 60%;
+    width: 30%;
+ }
+
+h1.titulo {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: "quicksand";
+    text-align: center;
+    border-bottom: 1px solid black ;
+    font-size: 60px;
+}
+
+p.fans {
+    font-size: 30px;
+}
+
+
+h3 {
+    font-size: 40px;
+}
+
+p.emoj {
+  display: block;
+}
+
+div.emoji {
+   
+    grid-template-columns: 10% 75% 10%;
+
+}
+
+p a {
+      font-size: 25px;
+
      
+        color: black;
+        font-weight: bolder;
+        font-family: "quicksand";
+        text-align: center;
+        
+ 
+    
+}
+
+
+
+
+
 
     footer nav{
     margin-top:35px;
@@ -206,8 +313,9 @@ div.foot2 img.deezerlogo{
     div.foot2 img.deezerlogo{
     position: absolute;
     right: 80px;
-    padding: 5%;
+    padding: 1%;
     padding-top: 3%;
+    padding-right: 3%;
    }
 
 
@@ -252,6 +360,36 @@ img.logo{
     .Boton{
         width: 10%;
     }
+
+
+        p a {
+            color: black;
+            font-weight: bolder;
+            font-family: "quicksand";
+            text-align: center;
+            
+        }
+        
+
+        img.imgArtista {
+            width: 30%;
+        }
+   
+
+        h1.titulo{
+            font-size: 40px;
+            padding-right: 0%
+        }
+        
+
+
+
+
+
+
+
+
+    
     div.foot2 img.deezerlogo {
         width: 30%;
         padding: 5px;
@@ -261,6 +399,5 @@ img.logo{
      
 
 
-    
-   
 }
+
