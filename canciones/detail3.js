@@ -44,11 +44,9 @@ window.addEventListener("load", function(){
                 <img class="imagen" src= "`+ imagen + `"> 
                 <p class="button"> <button class= "botonrep">Reproducir canción   <i class="far fa-play-circle"></i></button></p>
                 <iframe class="reproducir"scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=false&width=600&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=`+idCanciones+`&app_id=1" width="600" height="90"></iframe>
-            
             </section>
 
             <article>
-
                 <ul class= "info"> Artista: <a class= "vinculo" href="../artistas/detail2.html?idArtista=`+ idVinculoartista + `">` + nombreartista + `</a> </ul>
                 <ul class= "info"> Album: <a class= "vinculo" href="../albumes/detail.html?idAlbum=`+ idVinculoalbum + `">` + nombrealbum+ `</a> </ul>
                 <ul class="info">`+ "Duración:" + "  " + (duracion/60).toFixed(2) + " " + "minutos" + `</ul>
@@ -59,8 +57,11 @@ window.addEventListener("load", function(){
 
            
             document.querySelector(".botonrep").addEventListener ("click", function() {
-                document.querySelector(".reproducir").style.display = "block"
+          
+            document.querySelector(".reproducir").style.display = "block"
+            
      })
      
      })
 })
+          
