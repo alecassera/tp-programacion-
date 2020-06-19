@@ -21,7 +21,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
       let nombre = artistas.name          
           console.log(nombre)
 
-      let imagen = artistas.picture_medium
+      let imagen = artistas.picture_big
            console.log(imagen)
 
       let fans = artistas.nb_fan
@@ -56,8 +56,9 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
            console.log(hiperCanciones)
 
          let tArtistasHTML =   `
+        
           <section>
-         <li>
+          <li>
          <p>  <a href="../canciones/detail3.html?idCanciones=`+ hiperCanciones+`"> ` + nombreTArtistas + `</a>  </p>
         </li>
         </section>
@@ -72,25 +73,36 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
 
 
         let artistasHTML = `
+        <h1 class= "titulo"> ARTISTAS </h1>
         <section class= "playlist">
-                    <img src="` + imagen + `">
+        
+                    <img class="imgArtista" src="` + imagen + `">
         </section>
         <article>
-        <ol>
+        <ol >
             <li>
-                     <p> Nombre: <br>` + nombre + `<p>
+                     <p class= "fans"> Nombre: ` + nombre + `<p>
            </li>
            <li>
-                  <p> Numero de fans: `+ fans + ` </p>
+                  <p class= "fans"> Numero de fans: `+ fans + ` </p>
            </li>
            </ol>
         <article/>
+       
                    `
       document.querySelector(".topplaylist").innerHTML += artistasHTML
 
 
-
-
+      let emojiHTML = `
+      
+      <section>  <p class= "emoj"><span>&#129304;&#127996;</span></p>  </section>
+         <article><h3> Top 5 Tracks De `+ nombre +`</h3></article>
+      <section>  <p class= "emoj"><span>&#129304;&#127996;</span></p> </section>
+   
+      
+      
+      `
+     document.querySelector(".emoji").innerHTML += emojiHTML
 
        
     
