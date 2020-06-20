@@ -87,24 +87,13 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/artist/" + idA
                   <p class= "fans"> Numero de fans: `+ fans + ` </p>
            </li>
            </ol>
+
         <article/>
-       
+       <h3> Top 5 Tracks De `+ nombre +`</h3>
                    `
       document.querySelector(".topplaylist").innerHTML += artistasHTML
 
 
-      let emojiHTML = `
-      
-      <section>  <p class= "emoj"><span>&#129304;&#127996;</span></p>  </section>
-         <article><h3> Top 5 Tracks De `+ nombre +`</h3></article>
-      <section>  <p class= "emoj"><span>&#129304;&#127996;</span></p> </section>
-   
-      
-      
-      `
-     document.querySelector(".emoji").innerHTML += emojiHTML
-
-       
     
   })
 
