@@ -43,7 +43,7 @@ window.addEventListener("load", function(){
                 <h1 class= "cancion">`+ nombrecancion + `</h1> 
                 <img class="imagen" src= "`+ imagen + `"> 
                 <p class="button"> <button class= "botonrep">Reproducir canción   <i class="far fa-play-circle"></i></button></p>
-                <iframe class="reproducir"scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=false&width=600&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=`+idCanciones+`&app_id=1" width="600" height="90"></iframe>
+                <iframe class="reproducir" scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=400&height=350&color=007FEB&layout=dark&size=medium&type=tracks&id=`+idCanciones+`&app_id=1" width="400" height="90"></iframe>
             </section>
 
             <article>
