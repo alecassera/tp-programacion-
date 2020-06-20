@@ -20,7 +20,7 @@ window.addEventListener("load", function(){
             let nombrecancion = canciones.title
             console.log(nombrecancion)
 
-            let imagen = canciones.artist.picture_big
+            let imagen = canciones.album.cover_big
             console.log(imagen)
 
             let nombreartista = canciones.artist.name
